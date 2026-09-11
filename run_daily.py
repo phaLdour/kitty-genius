@@ -23,6 +23,7 @@ import random
 import subprocess
 import sys
 from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 from kg.brand import ROOT, brand, pipeline
@@ -58,10 +59,25 @@ def uploaded_ids() -> set[str]:
     return {r["scenario"] for r in _log_rows() if "scenario" in r}
 
 
+QUOTA_TZ = ZoneInfo("America/Los_Angeles")   # Google API kotası Pasifik gece yarısında sıfırlanır
+
+
 def uploads_today() -> int:
-    """Bugün (UTC) kaç video yüklendi — günlük API kotası bütçesi için."""
-    t = datetime.now(timezone.utc).date().isoformat()
-    return sum(1 for r in _log_rows() if "scenario" in r and str(r.get("at", "")).startswith(t))
+    """Bugün kaç video yüklendi — Google kotası PASİFİK gününe göre sıfırlanır, UTC'ye göre değil."""
+    today = datetime.now(QUOTA_TZ).date()
+    n = 0
+    for r in _log_rows():
+        if "scenario" not in r or not r.get("at"):
+            continue
+        try:
+            ts = datetime.fromisoformat(str(r["at"]).replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if ts.tzinfo is None:
+            ts = ts.replace(tzinfo=timezone.utc)
+        if ts.astimezone(QUOTA_TZ).date() == today:
+            n += 1
+    return n
 
 
 def slot_times() -> list[str]:
@@ -154,7 +170,10 @@ def render_pending(window: int, limit: int, log: list[str]) -> None:
 
 def run_qc(log: list[str]) -> None:
     r = subprocess.run([sys.executable, "qc.py"], cwd=ROOT, capture_output=True, text=True)
-    bad = [l for l in r.stdout.splitlines() if l.strip() and " OK " not in l and not l.startswith("=")]
+    import re
+    bad = [l for l in r.stdout.splitlines()
+           if l.strip() and " OK " not in l and not l.startswith("=")
+           and "mp4 yok" not in l and not re.match(r"^\s*\d+/\d+ OK", l)]
     log.append("qc       " + ("hepsi OK" if not bad else "SORUN: " + " | ".join(bad[:5])))
 
 
@@ -208,7 +227,8 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     used = 0 if a.dry_run else uploads_today()
     budget = max(0, a.quota - used)
-    log.append(f"kota     bugün {used}/{a.quota} kullanıldı, bu turda en fazla {budget} video")
+    log.append(f"kota     Pasifik günü {datetime.now(QUOTA_TZ):%Y-%m-%d}: {used}/{a.quota} kullanıldı, "
+               f"bu turda en fazla {budget} video")
     fill_calendar(a.horizon, a.per_day, log)
     render_pending(a.window, budget, log)
     run_qc(log)

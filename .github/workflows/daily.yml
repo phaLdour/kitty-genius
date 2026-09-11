@@ -2,8 +2,8 @@ name: Kitty Genius — günlük video
 
 on:
   schedule:
-    - cron: "0 6 * * *"       # 06:00 UTC (09:00 TR) — ilk slot 13:00 UTC, bol pay var
-    - cron: "0 11 * * *"      # 11:00 UTC — yedek tur: sabahki patlarsa kaldığı yerden devam
+    - cron: "0 8 * * *"       # 08:00 UTC — Google kotası 07:00 UTC'de (Pasifik gece yarısı) sıfırlanır
+    - cron: "0 12 * * *"      # 12:00 UTC — yedek tur: sabahki patlarsa kaldığı yerden devam
   workflow_dispatch:
     inputs:
       dry_run:
@@ -23,9 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip

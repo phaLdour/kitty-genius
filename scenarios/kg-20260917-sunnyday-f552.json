@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260917-sunnyday-f552",
+  "story": "sunny_day",
+  "story_label": "Sunny Day",
+  "publish_day": "2026-09-17",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "SUN",
+      "question": "SUNNY DAY! CHOOSE ONE",
+      "narration": "Sunny day! What does the kitten need?",
+      "reveal_line": "Yes! The billed cap. So cool!",
+      "hero_key": "SUN_1",
+      "options": [
+        {
+          "name": "scarf",
+          "emoji": "🧣",
+          "correct": false
+        },
+        {
+          "name": "billed cap",
+          "emoji": "🧢",
+          "correct": true
+        },
+        {
+          "name": "brick",
+          "emoji": "🧱",
+          "correct": false
+        },
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        }
+      ],
+      "hash": "e1f8476440cc"
+    },
+    {
+      "type": "FOOD",
+      "question": "WHAT SHOULD THE KITTEN EAT?",
+      "narration": "Feed the kitten! Choose correctly!",
+      "reveal_line": "That's right, the tuna can!",
+      "hero_key": "FOOD_1",
+      "options": [
+        {
+          "name": "broom",
+          "emoji": "🧹",
+          "correct": false
+        },
+        {
+          "name": "tuna can",
+          "emoji": "🥫",
+          "correct": true
+        },
+        {
+          "name": "rock",
+          "emoji": "🪨",
+          "correct": false
+        },
+        {
+          "name": "sponge",
+          "emoji": "🧽",
+          "correct": false
+        }
+      ],
+      "hash": "74eb0ae0d07d"
+    },
+    {
+      "type": "TOY",
+      "question": "PICK A SAFE TOY",
+      "narration": "The kitten wants to play! Choose a safe toy!",
+      "reveal_line": "That's right, the mouse face!",
+      "hero_key": "TOY_1",
+      "options": [
+        {
+          "name": "wastebasket",
+          "emoji": "🗑️",
+          "correct": false
+        },
+        {
+          "name": "cactus",
+          "emoji": "🌵",
+          "correct": false
+        },
+        {
+          "name": "mouse face",
+          "emoji": "🐭",
+          "correct": true
+        },
+        {
+          "name": "sock",
+          "emoji": "🧦",
+          "correct": false
+        }
+      ],
+      "hash": "dd30fe236a73"
+    },
+    {
+      "type": "ODD",
+      "question": "FIND THE ODD ONE OUT",
+      "narration": "Which one is different? Choose correctly!",
+      "reveal_line": "Yes! The guitar is different!",
+      "hero_key": "ODD_1",
+      "options": [
+        {
+          "name": "drum",
+          "emoji": "🥁",
+          "correct": false
+        },
+        {
+          "name": "drum",
+          "emoji": "🥁",
+          "correct": false
+        },
+        {
+          "name": "guitar",
+          "emoji": "🎸",
+          "correct": true
+        },
+        {
+          "name": "drum",
+          "emoji": "🥁",
+          "correct": false
+        }
+      ],
+      "hash": "09beb917baad"
+    },
+    {
+      "type": "BATH",
+      "question": "IT'S BATH TIME! PICK ONE",
+      "narration": "The kitten is so dirty! Where should it wash?",
+      "reveal_line": "Yes! The sponge. Splash splash!",
+      "hero_key": "BATH_1",
+      "options": [
+        {
+          "name": "wastebasket",
+          "emoji": "🗑️",
+          "correct": false
+        },
+        {
+          "name": "tornado",
+          "emoji": "🌪️",
+          "correct": false
+        },
+        {
+          "name": "paint palette",
+          "emoji": "🎨",
+          "correct": false
+        },
+        {
+          "name": "sponge",
+          "emoji": "🧽",
+          "correct": true
+        }
+      ],
+      "hash": "645c1768ae80"
+    },
+    {
+      "type": "SLEEP",
+      "question": "PICK A COZY PLACE TO SLEEP",
+      "narration": "Bedtime! Choose a cozy place!",
+      "reveal_line": "Yes! A cozy couch and lamp. Good night!",
+      "hero_key": "SLEEP_2",
+      "options": [
+        {
+          "name": "trumpet",
+          "emoji": "🎺",
+          "correct": false
+        },
+        {
+          "name": "couch and lamp",
+          "emoji": "🛋️",
+          "correct": true
+        },
+        {
+          "name": "volcano",
+          "emoji": "🌋",
+          "correct": false
+        },
+        {
+          "name": "construction",
+          "emoji": "🚧",
+          "correct": false
+        }
+      ],
+      "hash": "3c0691658c0c"
+    }
+  ]
+}

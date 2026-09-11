@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260920-musicday-ffe0",
+  "story": "music_day",
+  "story_label": "Music Day",
+  "publish_day": "2026-09-20",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "MUSIC",
+      "question": "WHAT MAKES BEAUTIFUL MUSIC?",
+      "narration": "Which one makes music? Choose correctly!",
+      "reveal_line": "That's right! Play the piano!",
+      "hero_key": "MUSIC_1",
+      "options": [
+        {
+          "name": "toilet",
+          "emoji": "🚽",
+          "correct": false
+        },
+        {
+          "name": "telephone",
+          "emoji": "☎️",
+          "correct": false
+        },
+        {
+          "name": "scooter",
+          "emoji": "🛴",
+          "correct": false
+        },
+        {
+          "name": "piano",
+          "emoji": "🎹",
+          "correct": true
+        }
+      ],
+      "hash": "18645ca7017b"
+    },
+    {
+      "type": "TOY",
+      "question": "THE KITTEN WANTS TO PLAY",
+      "narration": "The kitten wants to play! Choose a safe toy!",
+      "reveal_line": "Yes! The teddy bear. So fun!",
+      "hero_key": "TOY_1",
+      "options": [
+        {
+          "name": "shopping cart",
+          "emoji": "🛒",
+          "correct": false
+        },
+        {
+          "name": "light bulb",
+          "emoji": "💡",
+          "correct": false
+        },
+        {
+          "name": "honeybee",
+          "emoji": "🐝",
+          "correct": false
+        },
+        {
+          "name": "teddy bear",
+          "emoji": "🧸",
+          "correct": true
+        }
+      ],
+      "hash": "26add3f891e1"
+    },
+    {
+      "type": "DRINK",
+      "question": "CHOOSE A DRINK FOR THE KITTEN",
+      "narration": "The kitten is thirsty! Choose a drink!",
+      "reveal_line": "That's right! glass of milk for the kitten!",
+      "hero_key": "DRINK_1",
+      "options": [
+        {
+          "name": "salt",
+          "emoji": "🧂",
+          "correct": false
+        },
+        {
+          "name": "glass of milk",
+          "emoji": "🥛",
+          "correct": true
+        },
+        {
+          "name": "paint palette",
+          "emoji": "🎨",
+          "correct": false
+        },
+        {
+          "name": "ice",
+          "emoji": "🧊",
+          "correct": false
+        }
+      ],
+      "hash": "b840e413f585"
+    },
+    {
+      "type": "ODD",
+      "question": "ONE IS NOT LIKE THE OTHERS",
+      "narration": "Find the odd one out! Look carefully!",
+      "reveal_line": "Yes! The duck is different!",
+      "hero_key": "ODD_1",
+      "options": [
+        {
+          "name": "chicken",
+          "emoji": "🐔",
+          "correct": false
+        },
+        {
+          "name": "duck",
+          "emoji": "🦆",
+          "correct": true
+        },
+        {
+          "name": "chicken",
+          "emoji": "🐔",
+          "correct": false
+        },
+        {
+          "name": "chicken",
+          "emoji": "🐔",
+          "correct": false
+        }
+      ],
+      "hash": "91cfa1b6216f"
+    },
+    {
+      "type": "FOOD",
+      "question": "WHAT SHOULD THE KITTEN EAT?",
+      "narration": "Feed the kitten! Choose correctly!",
+      "reveal_line": "Yes! The shrimp. Yummy!",
+      "hero_key": "FOOD_3",
+      "options": [
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        },
+        {
+          "name": "wastebasket",
+          "emoji": "🗑️",
+          "correct": false
+        },
+        {
+          "name": "shrimp",
+          "emoji": "🦐",
+          "correct": true
+        },
+        {
+          "name": "sock",
+          "emoji": "🧦",
+          "correct": false
+        }
+      ],
+      "hash": "458bf98de1d6"
+    },
+    {
+      "type": "SLEEP",
+      "question": "THE KITTEN IS SLEEPY",
+      "narration": "Bedtime! Choose a cozy place!",
+      "reveal_line": "Yes! A cozy pillow. Good night!",
+      "hero_key": "SLEEP_2",
+      "options": [
+        {
+          "name": "volcano",
+          "emoji": "🌋",
+          "correct": false
+        },
+        {
+          "name": "guitar",
+          "emoji": "🎸",
+          "correct": false
+        },
+        {
+          "name": "pillow",
+          "emoji": "🛏️",
+          "correct": true
+        },
+        {
+          "name": "trumpet",
+          "emoji": "🎺",
+          "correct": false
+        }
+      ],
+      "hash": "a70a962b9b7c"
+    }
+  ]
+}

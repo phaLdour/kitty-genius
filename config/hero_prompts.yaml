@@ -1,0 +1,35 @@
+base: photorealistic photo of an adorable tuxedo kitten (black and white fur, white chest, white paws, pink nose), huge glossy wet expressive eyes, very emotional face, real fur texture, DSLR 85mm lens, shallow depth of field, soft cinematic lighting,
+  vivid saturated colors, sharp focus on the eyes, centered, looking at the viewer, 8k, award-winning pet photography
+negative: cartoon, 3d render, illustration, painting, anime, drawing, plastic skin, text, letters, watermark, logo, signature, extra limbs, deformed, ugly, blurry, low quality, human, person, hands, blood, injury, wound, scary, creepy, dark horror, multiple
+  cats
+emotions:
+  FOOD: hungry and pleading, big watery puppy-dog eyes, mouth slightly open
+  DRINK: thirsty and hopeful, tongue slightly out, panting a little
+  TOY: overexcited and playful, sparkling eyes, huge grin, ears perked forward
+  FIND_MOM: worried and lost, wide anxious eyes, ears slightly back, tiny paw raised
+  BATH: sheepish embarrassed expression, guilty little smile, eyes glancing away
+  SLEEP: extremely sleepy, mid-yawn, heavy half-closed eyes
+  RAIN: scared and shivering, wet ruffled fur, giant pleading eyes
+  SNOW: cold and shivering, huge pleading eyes, snowflakes on fur
+  SUN: hot and panting, squinting eyes, tongue slightly out
+  BIRTHDAY: thrilled and joyful, sparkling wide eyes, happy open mouth
+  SCHOOL: eager and proud, shiny confident eyes, ears up
+  TEETH: curious, mouth slightly open showing tiny teeth
+  ODD: puzzled and curious, head tilted, thinking expression
+  HIDE: sneaky and playful, mischievous narrowed eyes
+  TRAVEL: excited and curious, perky ears, bright eager eyes
+  MUSIC: delighted and surprised, head tilted, bright happy eyes
+  CLEAN: wide surprised guilty eyes, ears slightly back
+  HOME: hopeful and expectant, big soft eyes, gentle hopeful face
+  SAVE: scared and shivering, wet ruffled fur, giant pleading eyes
+settings:
+  size: 1152x832
+  sdxl:
+    steps: 28
+    cfg: 6.0
+    sampler: DPM++ 2M Karras
+  flux_schnell:
+    steps: 4
+    cfg: 1.0
+  seed_rule: senaryo id'sinin hash'i + tur no (tutarlı ama her videoda farklı)
+  file_pattern: assets/hero/{scenario_id}_r{n}.png

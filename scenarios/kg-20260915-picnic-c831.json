@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260915-picnic-c831",
+  "story": "picnic",
+  "story_label": "Picnic Day",
+  "publish_day": "2026-09-15",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "FOOD",
+      "question": "THE KITTEN IS HUNGRY! PICK ONE",
+      "narration": "Feed the kitten! Choose correctly!",
+      "reveal_line": "That's right, the egg!",
+      "hero_key": "FOOD_1",
+      "options": [
+        {
+          "name": "egg",
+          "emoji": "🥚",
+          "correct": true
+        },
+        {
+          "name": "cactus",
+          "emoji": "🌵",
+          "correct": false
+        },
+        {
+          "name": "lemon",
+          "emoji": "🍋",
+          "correct": false
+        },
+        {
+          "name": "sock",
+          "emoji": "🧦",
+          "correct": false
+        }
+      ],
+      "hash": "75fa75d25aed"
+    },
+    {
+      "type": "DRINK",
+      "question": "CHOOSE A DRINK FOR THE KITTEN",
+      "narration": "The kitten is thirsty! Choose a drink!",
+      "reveal_line": "That's right! cup with straw for the kitten!",
+      "hero_key": "DRINK_2",
+      "options": [
+        {
+          "name": "ice",
+          "emoji": "🧊",
+          "correct": false
+        },
+        {
+          "name": "cup with straw",
+          "emoji": "🥤",
+          "correct": true
+        },
+        {
+          "name": "salt",
+          "emoji": "🧂",
+          "correct": false
+        },
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        }
+      ],
+      "hash": "1a3c55362a39"
+    },
+    {
+      "type": "TOY",
+      "question": "THE KITTEN WANTS TO PLAY",
+      "narration": "The kitten wants to play! Choose a safe toy!",
+      "reveal_line": "Yes! The balloon. So fun!",
+      "hero_key": "TOY_2",
+      "options": [
+        {
+          "name": "traffic light",
+          "emoji": "🚦",
+          "correct": false
+        },
+        {
+          "name": "snake",
+          "emoji": "🐍",
+          "correct": false
+        },
+        {
+          "name": "balloon",
+          "emoji": "🎈",
+          "correct": true
+        },
+        {
+          "name": "brick",
+          "emoji": "🧱",
+          "correct": false
+        }
+      ],
+      "hash": "517cea17c584"
+    },
+    {
+      "type": "ODD",
+      "question": "FIND THE ODD ONE OUT",
+      "narration": "Which one is different? Choose correctly!",
+      "reveal_line": "Yes! The ear of corn is different!",
+      "hero_key": "ODD_2",
+      "options": [
+        {
+          "name": "banana",
+          "emoji": "🍌",
+          "correct": false
+        },
+        {
+          "name": "banana",
+          "emoji": "🍌",
+          "correct": false
+        },
+        {
+          "name": "banana",
+          "emoji": "🍌",
+          "correct": false
+        },
+        {
+          "name": "ear of corn",
+          "emoji": "🌽",
+          "correct": true
+        }
+      ],
+      "hash": "ec4cb7074206"
+    },
+    {
+      "type": "RAIN",
+      "question": "KEEP THE KITTEN DRY",
+      "narration": "Save the kitten from the rain! Choose fast!",
+      "reveal_line": "Yes! The bucket. Safe and dry!",
+      "hero_key": "RAIN_1",
+      "options": [
+        {
+          "name": "bikini",
+          "emoji": "🩳",
+          "correct": false
+        },
+        {
+          "name": "bucket",
+          "emoji": "🪣",
+          "correct": true
+        },
+        {
+          "name": "clock",
+          "emoji": "⏰",
+          "correct": false
+        },
+        {
+          "name": "ice cream",
+          "emoji": "🍦",
+          "correct": false
+        }
+      ],
+      "hash": "ef5b09af3cd7"
+    },
+    {
+      "type": "SLEEP",
+      "question": "THE KITTEN IS SLEEPY",
+      "narration": "The kitten is sleepy. Where should it sleep?",
+      "reveal_line": "Yes! A cozy pillow. Good night!",
+      "hero_key": "SLEEP_1",
+      "options": [
+        {
+          "name": "pillow",
+          "emoji": "🛏️",
+          "correct": true
+        },
+        {
+          "name": "rocket",
+          "emoji": "🚀",
+          "correct": false
+        },
+        {
+          "name": "roller coaster",
+          "emoji": "🎢",
+          "correct": false
+        },
+        {
+          "name": "volcano",
+          "emoji": "🌋",
+          "correct": false
+        }
+      ],
+      "hash": "c356150b771c"
+    }
+  ]
+}

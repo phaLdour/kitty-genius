@@ -1,0 +1,86 @@
+# Kitty Genius 🧠 — marka ve düzen sabitleri (tek kaynak)
+channel:
+  name: "Kitty Genius 🧠"
+  handle: "@KittyGeniusYT"
+  mascot: "tuxedo kitten"          # siyah-beyaz smokin yavru kedi
+  series_title: "Choose Correctly. 🧠"
+
+canvas:
+  width: 1080
+  height: 1920
+  fps: 24
+
+colors:
+  panel: "#4F46E5"                 # mavi-mor panel (marka rengi; avatar zemini de bu)
+  panel_dark: "#3730A3"
+  text: "#FFFFFF"
+  text_stroke: "#000000"
+  tile_bg: "#EEF2FF"
+  tile_border: "#FFFFFF"
+  countdown_bg: "#111111"
+  countdown_arc: "#FACC15"         # sarı yay
+  countdown_text: "#FFFFFF"
+  reveal_badge: "#22C55E"          # yeşil 👍 rozeti
+
+fonts:
+  question: "fonts/Montserrat-ExtraBold.ttf"   # yoksa fallback: Poppins-Bold
+  question_fallback: "fonts/Poppins-Bold.ttf"
+  emoji: "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"   # sadece placeholder (Fluent 3D yoksa)
+
+layout:
+  hero_height_ratio: 0.40          # üst %40 hero görsel
+  question:
+    max_width: 980
+    font_size: 86
+    stroke_width: 8
+    center_y: 745                  # hero/panel sınırı üstünde (768) — sınıra oturur
+    max_lines: 2
+    line_spacing: 1.05
+  countdown:
+    diameter: 132
+    center_y: 952
+    ring_width: 12
+    font_size: 64
+  grid:
+    tile: 420
+    gap: 40
+    top: 1044
+    border: 10
+    radius: 36
+    emoji_ratio: 0.72              # kare içinde nesnenin kapladığı oran
+  reveal:
+    scale: 1.65
+    rotate_deg: -6
+    badge_diameter: 150
+
+timing:                            # saniye
+  punch_in: 0.4                    # soru kartına hızlı zoom (1.25x -> 1.0x)
+  tile_pop: 0.12                   # her seçenek karesi sırayla "pop" ile gelir (4 × 0.12)
+  question_hold: 0.5
+  countdown_seconds: 4             # 4-3-2-1-0
+  reveal_pop: 0.3
+  reveal_hold: 2.2
+  rounds_per_video: 6              # 6 tur ≈ 47 s
+
+fx:                                # "duygu + doygunluk" katmanı
+  hero_saturation: 1.45            # ImageEnhance.Color
+  hero_contrast: 1.18
+  hero_brightness: 1.04
+  hero_vignette: 0.28              # kenar karartma (0 = yok)
+  hero_zoom_per_round: 1.07        # Ken Burns: tur boyunca 1.0 -> 1.07
+  reveal_flash: true               # reveal anında 1 karelik beyaz flaş
+  panel_glow: true                 # doğru kare arkasında yumuşak ışıma
+
+audio:
+  tts_voices: ["en-US-AvaNeural", "en-US-JennyNeural", "en-US-AriaNeural"]   # edge-tts, yumuşak kadın sesleri (rotasyon)
+  tts_rate: "-3%"                  # biraz yavaş = yumuşak
+  tts_gain_db: 2.0
+  reveal_line_delay: 0.35          # reveal'dan sonra "Yes, milk!" anlatımı
+  music_gain_db: -16
+  tick_gain_db: -10
+  ding_gain_db: -6
+  pop_gain_db: -9
+  riser_gain_db: -14
+  sparkle_gain_db: -12
+  whoosh_gain_db: -8
+  target_lufs: -14

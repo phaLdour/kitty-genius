@@ -1,0 +1,183 @@
+{
+  "id": "sample-kittys-day-001",
+  "story": "kittys_day",
+  "story_label": "Kitty's Day",
+  "title": "Choose Correctly. 🧠",
+  "hero_prompt_base": "3D render, cute tuxedo kitten (black and white), huge glossy eyes, soft fur, pixar style, bright studio lighting, centered, vertical composition, plain background",
+  "rounds": [
+    {
+      "type": "FOOD",
+      "question": "GIVE THE KITTEN BREAKFAST",
+      "narration": "Give the kitten breakfast! Choose correctly!",
+      "hero_prompt": "hungry tuxedo kitten sitting at a tiny kitchen table in the morning, empty bowl",
+      "options": [
+        {
+          "name": "glass of milk",
+          "emoji": "🥛",
+          "correct": true
+        },
+        {
+          "name": "soap",
+          "emoji": "🧼",
+          "correct": false
+        },
+        {
+          "name": "rock",
+          "emoji": "🪨",
+          "correct": false
+        },
+        {
+          "name": "cactus",
+          "emoji": "🌵",
+          "correct": false
+        }
+      ],
+      "reveal_line": "Yes! A glass of milk. Yummy!"
+    },
+    {
+      "type": "FIND_MOM",
+      "question": "FIND THE KITTEN'S MOM",
+      "narration": "Which one is the kitten's mom? Find her!",
+      "hero_prompt": "tuxedo kitten looking around a sunny garden, searching",
+      "options": [
+        {
+          "name": "dog",
+          "emoji": "🐕",
+          "correct": false
+        },
+        {
+          "name": "cat",
+          "emoji": "🐈",
+          "correct": true
+        },
+        {
+          "name": "cow",
+          "emoji": "🐄",
+          "correct": false
+        },
+        {
+          "name": "chicken",
+          "emoji": "🐔",
+          "correct": false
+        }
+      ],
+      "reveal_line": "Yes! That's the mommy cat!"
+    },
+    {
+      "type": "TOY",
+      "question": "CHOOSE A TOY FOR THE KITTEN",
+      "narration": "Choose a toy for the kitten! Be careful!",
+      "hero_prompt": "playful tuxedo kitten pouncing on a living room carpet",
+      "options": [
+        {
+          "name": "snake",
+          "emoji": "🐍",
+          "correct": false
+        },
+        {
+          "name": "fire",
+          "emoji": "🔥",
+          "correct": false
+        },
+        {
+          "name": "yarn",
+          "emoji": "🧶",
+          "correct": true
+        },
+        {
+          "name": "knife",
+          "emoji": "🔪",
+          "correct": false
+        }
+      ],
+      "reveal_line": "Yes! The ball of yarn. So fun!"
+    },
+    {
+      "type": "BATH",
+      "question": "IT'S BATH TIME! PICK ONE",
+      "narration": "It's bath time! Pick the right one!",
+      "hero_prompt": "tuxedo kitten covered in mud, standing in a bathroom",
+      "options": [
+        {
+          "name": "toilet",
+          "emoji": "🚽",
+          "correct": false
+        },
+        {
+          "name": "volcano",
+          "emoji": "🌋",
+          "correct": false
+        },
+        {
+          "name": "ice",
+          "emoji": "🧊",
+          "correct": false
+        },
+        {
+          "name": "bathtub",
+          "emoji": "🛁",
+          "correct": true
+        }
+      ],
+      "reveal_line": "Yes! The bathtub. Splash splash!"
+    },
+    {
+      "type": "SLEEP",
+      "question": "THE KITTEN IS SLEEPY",
+      "narration": "The kitten is sleepy. Where should it sleep?",
+      "hero_prompt": "yawning tuxedo kitten at night, cozy room, moonlight through window",
+      "options": [
+        {
+          "name": "bed",
+          "emoji": "🛏️",
+          "correct": true
+        },
+        {
+          "name": "trumpet",
+          "emoji": "🎺",
+          "correct": false
+        },
+        {
+          "name": "construction",
+          "emoji": "🚧",
+          "correct": false
+        },
+        {
+          "name": "tornado",
+          "emoji": "🌪️",
+          "correct": false
+        }
+      ],
+      "reveal_line": "Yes! A cozy bed. Good night!"
+    },
+    {
+      "type": "SAVE",
+      "question": "SAVE THE KITTEN FROM THE RAIN",
+      "narration": "Save the kitten from the rain! Choose fast!",
+      "hero_prompt": "tuxedo kitten under a heavy rain shower on a sidewalk, looking up",
+      "options": [
+        {
+          "name": "fork",
+          "emoji": "🍴",
+          "correct": false
+        },
+        {
+          "name": "umbrella",
+          "emoji": "☂️",
+          "correct": true
+        },
+        {
+          "name": "bucket",
+          "emoji": "🪣",
+          "correct": false
+        },
+        {
+          "name": "firecracker",
+          "emoji": "🧨",
+          "correct": false
+        }
+      ],
+      "reveal_line": "Yes! The umbrella. Safe and dry!"
+    }
+  ]
+}

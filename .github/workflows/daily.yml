@@ -1,0 +1,77 @@
+name: Kitty Genius — günlük video
+
+on:
+  schedule:
+    - cron: "0 6 * * *"       # 06:00 UTC (09:00 TR) — ilk slot 13:00 UTC, bol pay var
+    - cron: "0 11 * * *"      # 11:00 UTC — yedek tur: sabahki patlarsa kaldığı yerden devam
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Yükleme yapma, sadece ne olacağını göster"
+        type: boolean
+        default: false
+
+concurrency:
+  group: kitty-genius-daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: ffmpeg + emoji fontu
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
+          ffmpeg -version | head -1
+
+      - name: Python bağımlılıkları
+        run: pip install -q -r requirements.txt
+
+      - name: Fluent emoji önbelleği
+        uses: actions/cache@v4
+        with:
+          path: assets/emoji
+          key: fluent-emoji-${{ hashFiles('config/content.yaml') }}
+          restore-keys: fluent-emoji-
+
+      - name: Eksik emojileri indir
+        run: python tools/fetch_fluent_emoji.py --used
+
+      - name: Günlük tur
+        env:
+          KG_TOKEN_JSON: ${{ secrets.KG_TOKEN_JSON }}
+          KG_CLIENT_SECRET_JSON: ${{ secrets.KG_CLIENT_SECRET_JSON }}
+          KG_REQUIRE_TTS: "1"
+        run: |
+          python run_daily.py ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Durumu commit'le
+        if: always()
+        run: |
+          rm -f token.json client_secret.json
+          git config user.name  "kitty-genius-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add scenarios out/archive/ledger.json out/archive/uploads.jsonl assets/hero/lib 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "otomatik tur $(date -u +%Y-%m-%d)"
+          git push || true
+
+      - name: Videoları arşivle (7 gün)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos-${{ github.run_number }}
+          path: out/*.mp4
+          retention-days: 7
+          if-no-files-found: ignore

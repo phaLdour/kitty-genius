@@ -1,0 +1,15 @@
+token.json
+client_secret.json
+out/*.mp4
+out/*.log.json
+out/qc_*.json
+out/qc_report.txt
+out/hero_queue.txt
+out/image_queue.*
+out/daily_report.txt
+out/*.wav
+out/*.png
+.venv/
+__pycache__/
+*.pyc
+assets/emoji/

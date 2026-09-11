@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260921-gardenday-838a",
+  "story": "garden_day",
+  "story_label": "Garden Adventure",
+  "publish_day": "2026-09-21",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "FIND_MOM",
+      "question": "WHERE IS THE KITTEN'S MOTHER?",
+      "narration": "The kitten lost its mom! Which one is she?",
+      "reveal_line": "Yes! That's the mommy cat!",
+      "hero_key": "FIND_MOM_1",
+      "options": [
+        {
+          "name": "cat",
+          "emoji": "🐈",
+          "correct": true
+        },
+        {
+          "name": "horse",
+          "emoji": "🐴",
+          "correct": false
+        },
+        {
+          "name": "goat",
+          "emoji": "🐐",
+          "correct": false
+        },
+        {
+          "name": "chicken",
+          "emoji": "🐔",
+          "correct": false
+        }
+      ],
+      "hash": "a10348bc272f"
+    },
+    {
+      "type": "SUN",
+      "question": "KEEP THE KITTEN COOL",
+      "narration": "It's so hot outside! Help the kitten stay cool!",
+      "reveal_line": "Yes! The droplet. So cool!",
+      "hero_key": "SUN_1",
+      "options": [
+        {
+          "name": "brick",
+          "emoji": "🧱",
+          "correct": false
+        },
+        {
+          "name": "traffic light",
+          "emoji": "🚦",
+          "correct": false
+        },
+        {
+          "name": "droplet",
+          "emoji": "💧",
+          "correct": true
+        },
+        {
+          "name": "blanket",
+          "emoji": "🛌",
+          "correct": false
+        }
+      ],
+      "hash": "1f38b182ca67"
+    },
+    {
+      "type": "DRINK",
+      "question": "GIVE THE KITTEN A DRINK",
+      "narration": "Give the kitten something to drink. Choose correctly!",
+      "reveal_line": "That's right! cup with straw for the kitten!",
+      "hero_key": "DRINK_1",
+      "options": [
+        {
+          "name": "candle",
+          "emoji": "🕯️",
+          "correct": false
+        },
+        {
+          "name": "key",
+          "emoji": "🔑",
+          "correct": false
+        },
+        {
+          "name": "cup with straw",
+          "emoji": "🥤",
+          "correct": true
+        },
+        {
+          "name": "clock",
+          "emoji": "⏰",
+          "correct": false
+        }
+      ],
+      "hash": "6ada8923f015"
+    },
+    {
+      "type": "ODD",
+      "question": "ONE IS NOT LIKE THE OTHERS",
+      "narration": "Which one is different? Choose correctly!",
+      "reveal_line": "Yes! The house is different!",
+      "hero_key": "ODD_2",
+      "options": [
+        {
+          "name": "tent",
+          "emoji": "⛺",
+          "correct": false
+        },
+        {
+          "name": "tent",
+          "emoji": "⛺",
+          "correct": false
+        },
+        {
+          "name": "house",
+          "emoji": "🏠",
+          "correct": true
+        },
+        {
+          "name": "tent",
+          "emoji": "⛺",
+          "correct": false
+        }
+      ],
+      "hash": "c4049f2d832b"
+    },
+    {
+      "type": "TOY",
+      "question": "CHOOSE A TOY FOR THE KITTEN",
+      "narration": "Choose a toy for the kitten. Be careful!",
+      "reveal_line": "That's right, the yarn!",
+      "hero_key": "TOY_2",
+      "options": [
+        {
+          "name": "cactus",
+          "emoji": "🌵",
+          "correct": false
+        },
+        {
+          "name": "shopping cart",
+          "emoji": "🛒",
+          "correct": false
+        },
+        {
+          "name": "yarn",
+          "emoji": "🧶",
+          "correct": true
+        },
+        {
+          "name": "honeybee",
+          "emoji": "🐝",
+          "correct": false
+        }
+      ],
+      "hash": "f78e828962a3"
+    },
+    {
+      "type": "SLEEP",
+      "question": "WHERE SHOULD THE KITTEN SLEEP?",
+      "narration": "The kitten is sleepy. Where should it sleep?",
+      "reveal_line": "That's right. Sweet dreams, kitty!",
+      "hero_key": "SLEEP_1",
+      "options": [
+        {
+          "name": "loudspeaker",
+          "emoji": "📢",
+          "correct": false
+        },
+        {
+          "name": "basket",
+          "emoji": "🧺",
+          "correct": true
+        },
+        {
+          "name": "volcano",
+          "emoji": "🌋",
+          "correct": false
+        },
+        {
+          "name": "guitar",
+          "emoji": "🎸",
+          "correct": false
+        }
+      ],
+      "hash": "4770bbbf00d5"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260923-kittysday-d5dc",
+  "story": "kittys_day",
+  "story_label": "Kitty's Day",
+  "publish_day": "2026-09-23",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "FOOD",
+      "question": "CHOOSE A FOOD FOR THE KITTEN",
+      "narration": "The kitten is so hungry! Choose the right food!",
+      "reveal_line": "Yes! Kittens love poultry leg!",
+      "hero_key": "FOOD_1",
+      "options": [
+        {
+          "name": "poultry leg",
+          "emoji": "🍗",
+          "correct": true
+        },
+        {
+          "name": "battery",
+          "emoji": "🔋",
+          "correct": false
+        },
+        {
+          "name": "sock",
+          "emoji": "🧦",
+          "correct": false
+        },
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        }
+      ],
+      "hash": "6ae4571b2e6f"
+    },
+    {
+      "type": "FIND_MOM",
+      "question": "WHICH ONE IS THE MOMMY?",
+      "narration": "The kitten lost its mom! Which one is she?",
+      "reveal_line": "Yes! That's the mommy cat!",
+      "hero_key": "FIND_MOM_1",
+      "options": [
+        {
+          "name": "cat",
+          "emoji": "🐈",
+          "correct": true
+        },
+        {
+          "name": "duck",
+          "emoji": "🦆",
+          "correct": false
+        },
+        {
+          "name": "rabbit",
+          "emoji": "🐰",
+          "correct": false
+        },
+        {
+          "name": "horse",
+          "emoji": "🐴",
+          "correct": false
+        }
+      ],
+      "hash": "445c0c7f0cde"
+    },
+    {
+      "type": "TOY",
+      "question": "CHOOSE A TOY FOR THE KITTEN",
+      "narration": "The kitten wants to play! Choose a safe toy!",
+      "reveal_line": "That's right, the teddy bear!",
+      "hero_key": "TOY_2",
+      "options": [
+        {
+          "name": "teddy bear",
+          "emoji": "🧸",
+          "correct": true
+        },
+        {
+          "name": "mailbox",
+          "emoji": "📫",
+          "correct": false
+        },
+        {
+          "name": "ruler",
+          "emoji": "📏",
+          "correct": false
+        },
+        {
+          "name": "shopping cart",
+          "emoji": "🛒",
+          "correct": false
+        }
+      ],
+      "hash": "fb3deab500af"
+    },
+    {
+      "type": "BATH",
+      "question": "THE KITTEN IS DIRTY! WHERE TO WASH?",
+      "narration": "The kitten is so dirty! Where should it wash?",
+      "reveal_line": "That's right! Time to get clean!",
+      "hero_key": "BATH_2",
+      "options": [
+        {
+          "name": "bathtub",
+          "emoji": "🛁",
+          "correct": true
+        },
+        {
+          "name": "volcano",
+          "emoji": "🌋",
+          "correct": false
+        },
+        {
+          "name": "yo-yo",
+          "emoji": "🪀",
+          "correct": false
+        },
+        {
+          "name": "paint palette",
+          "emoji": "🎨",
+          "correct": false
+        }
+      ],
+      "hash": "3c239063f2a3"
+    },
+    {
+      "type": "SLEEP",
+      "question": "THE KITTEN IS SLEEPY",
+      "narration": "The kitten is sleepy. Where should it sleep?",
+      "reveal_line": "Yes! A cozy pillow. Good night!",
+      "hero_key": "SLEEP_1",
+      "options": [
+        {
+          "name": "drum",
+          "emoji": "🥁",
+          "correct": false
+        },
+        {
+          "name": "guitar",
+          "emoji": "🎸",
+          "correct": false
+        },
+        {
+          "name": "loudspeaker",
+          "emoji": "📢",
+          "correct": false
+        },
+        {
+          "name": "pillow",
+          "emoji": "🛏️",
+          "correct": true
+        }
+      ],
+      "hash": "57ecaab2f344"
+    },
+    {
+      "type": "RAIN",
+      "question": "SAVE THE KITTEN FROM THE RAIN",
+      "narration": "It's raining! What keeps the kitten dry?",
+      "reveal_line": "Yes! The house. Safe and dry!",
+      "hero_key": "RAIN_1",
+      "options": [
+        {
+          "name": "clock",
+          "emoji": "⏰",
+          "correct": false
+        },
+        {
+          "name": "bell",
+          "emoji": "🔔",
+          "correct": false
+        },
+        {
+          "name": "ice cream",
+          "emoji": "🍦",
+          "correct": false
+        },
+        {
+          "name": "house",
+          "emoji": "🏠",
+          "correct": true
+        }
+      ],
+      "hash": "137f4aa2c990"
+    }
+  ]
+}

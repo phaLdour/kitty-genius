@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260924-snowday-f0ba",
+  "story": "snow_day",
+  "story_label": "Snow Day",
+  "publish_day": "2026-09-24",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "SNOW",
+      "question": "IT'S SNOWING! WHAT SHOULD THE KITTEN WEAR?",
+      "narration": "It's snowing! Keep the kitten warm!",
+      "reveal_line": "Yes! The scarf. Warm and cozy!",
+      "hero_key": "SNOW_1",
+      "options": [
+        {
+          "name": "popsicle",
+          "emoji": "🍧",
+          "correct": false
+        },
+        {
+          "name": "chair",
+          "emoji": "🪑",
+          "correct": false
+        },
+        {
+          "name": "scarf",
+          "emoji": "🧣",
+          "correct": true
+        },
+        {
+          "name": "bucket",
+          "emoji": "🪣",
+          "correct": false
+        }
+      ],
+      "hash": "38065d09504d"
+    },
+    {
+      "type": "DRINK",
+      "question": "CHOOSE A DRINK FOR THE KITTEN",
+      "narration": "Give the kitten something to drink. Choose correctly!",
+      "reveal_line": "Yes! The water bottle. So refreshing!",
+      "hero_key": "DRINK_2",
+      "options": [
+        {
+          "name": "candle",
+          "emoji": "🕯️",
+          "correct": false
+        },
+        {
+          "name": "water bottle",
+          "emoji": "💧",
+          "correct": true
+        },
+        {
+          "name": "salt",
+          "emoji": "🧂",
+          "correct": false
+        },
+        {
+          "name": "lotion bottle",
+          "emoji": "🧴",
+          "correct": false
+        }
+      ],
+      "hash": "50d65fbb0f8d"
+    },
+    {
+      "type": "TOY",
+      "question": "PICK A SAFE TOY",
+      "narration": "The kitten wants to play! Choose a safe toy!",
+      "reveal_line": "Yes! The ping pong ball. So fun!",
+      "hero_key": "TOY_1",
+      "options": [
+        {
+          "name": "backpack",
+          "emoji": "🎒",
+          "correct": false
+        },
+        {
+          "name": "magnet",
+          "emoji": "🧲",
+          "correct": false
+        },
+        {
+          "name": "light bulb",
+          "emoji": "💡",
+          "correct": false
+        },
+        {
+          "name": "ping pong ball",
+          "emoji": "🏓",
+          "correct": true
+        }
+      ],
+      "hash": "22a797e4e7fe"
+    },
+    {
+      "type": "BATH",
+      "question": "IT'S BATH TIME! PICK ONE",
+      "narration": "The kitten is so dirty! Where should it wash?",
+      "reveal_line": "That's right! Time to get clean!",
+      "hero_key": "BATH_1",
+      "options": [
+        {
+          "name": "kite",
+          "emoji": "🪁",
+          "correct": false
+        },
+        {
+          "name": "soap",
+          "emoji": "🧼",
+          "correct": true
+        },
+        {
+          "name": "tornado",
+          "emoji": "🌪️",
+          "correct": false
+        },
+        {
+          "name": "oven",
+          "emoji": "🔥",
+          "correct": false
+        }
+      ],
+      "hash": "0731cf07239b"
+    },
+    {
+      "type": "FOOD",
+      "question": "THE KITTEN IS HUNGRY! PICK ONE",
+      "narration": "What can a kitten eat? Pick one!",
+      "reveal_line": "That's right, the cheese wedge!",
+      "hero_key": "FOOD_1",
+      "options": [
+        {
+          "name": "cheese wedge",
+          "emoji": "🧀",
+          "correct": true
+        },
+        {
+          "name": "wastebasket",
+          "emoji": "🗑️",
+          "correct": false
+        },
+        {
+          "name": "sock",
+          "emoji": "🧦",
+          "correct": false
+        },
+        {
+          "name": "socks",
+          "emoji": "🧦",
+          "correct": false
+        }
+      ],
+      "hash": "d7daf3975dbb"
+    },
+    {
+      "type": "SLEEP",
+      "question": "WHERE SHOULD THE KITTEN SLEEP?",
+      "narration": "Bedtime! Choose a cozy place!",
+      "reveal_line": "Yes! A cozy blanket. Good night!",
+      "hero_key": "SLEEP_2",
+      "options": [
+        {
+          "name": "guitar",
+          "emoji": "🎸",
+          "correct": false
+        },
+        {
+          "name": "blanket",
+          "emoji": "🛌",
+          "correct": true
+        },
+        {
+          "name": "trumpet",
+          "emoji": "🎺",
+          "correct": false
+        },
+        {
+          "name": "loudspeaker",
+          "emoji": "📢",
+          "correct": false
+        }
+      ],
+      "hash": "5626c45d0418"
+    }
+  ]
+}

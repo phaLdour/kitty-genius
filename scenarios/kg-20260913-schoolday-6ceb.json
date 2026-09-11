@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260913-schoolday-6ceb",
+  "story": "school_day",
+  "story_label": "First Day of School",
+  "publish_day": "2026-09-13",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "FOOD",
+      "question": "FEED THE HUNGRY KITTEN",
+      "narration": "What can a kitten eat? Pick one!",
+      "reveal_line": "Yes! Kittens love egg!",
+      "hero_key": "FOOD_1",
+      "options": [
+        {
+          "name": "sock",
+          "emoji": "🧦",
+          "correct": false
+        },
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        },
+        {
+          "name": "running shoe",
+          "emoji": "👟",
+          "correct": false
+        },
+        {
+          "name": "egg",
+          "emoji": "🥚",
+          "correct": true
+        }
+      ],
+      "hash": "9e0e22e6b19e"
+    },
+    {
+      "type": "SCHOOL",
+      "question": "SCHOOL TIME! CHOOSE ONE",
+      "narration": "The kitten's first day of school! What does it need?",
+      "reveal_line": "Yes! The notebook. Ready for school!",
+      "hero_key": "SCHOOL_1",
+      "options": [
+        {
+          "name": "broom",
+          "emoji": "🧹",
+          "correct": false
+        },
+        {
+          "name": "pizza",
+          "emoji": "🍕",
+          "correct": false
+        },
+        {
+          "name": "teapot",
+          "emoji": "🫖",
+          "correct": false
+        },
+        {
+          "name": "notebook",
+          "emoji": "📓",
+          "correct": true
+        }
+      ],
+      "hash": "b2b17073a3f6"
+    },
+    {
+      "type": "DRINK",
+      "question": "WHAT CAN THE KITTEN DRINK?",
+      "narration": "Give the kitten something to drink. Choose correctly!",
+      "reveal_line": "Yes! The water bottle. So refreshing!",
+      "hero_key": "DRINK_2",
+      "options": [
+        {
+          "name": "bell",
+          "emoji": "🔔",
+          "correct": false
+        },
+        {
+          "name": "key",
+          "emoji": "🔑",
+          "correct": false
+        },
+        {
+          "name": "paint palette",
+          "emoji": "🎨",
+          "correct": false
+        },
+        {
+          "name": "water bottle",
+          "emoji": "💧",
+          "correct": true
+        }
+      ],
+      "hash": "2c5ec7148306"
+    },
+    {
+      "type": "ODD",
+      "question": "FIND THE ODD ONE OUT",
+      "narration": "Which one is different? Choose correctly!",
+      "reveal_line": "That's right! The glass of milk is the odd one!",
+      "hero_key": "ODD_2",
+      "options": [
+        {
+          "name": "beverage box",
+          "emoji": "🧃",
+          "correct": false
+        },
+        {
+          "name": "beverage box",
+          "emoji": "🧃",
+          "correct": false
+        },
+        {
+          "name": "beverage box",
+          "emoji": "🧃",
+          "correct": false
+        },
+        {
+          "name": "glass of milk",
+          "emoji": "🥛",
+          "correct": true
+        }
+      ],
+      "hash": "fe8bf62b392c"
+    },
+    {
+      "type": "TOY",
+      "question": "CHOOSE A TOY FOR THE KITTEN",
+      "narration": "Choose a toy for the kitten. Be careful!",
+      "reveal_line": "That's right, the mouse face!",
+      "hero_key": "TOY_2",
+      "options": [
+        {
+          "name": "brick",
+          "emoji": "🧱",
+          "correct": false
+        },
+        {
+          "name": "mailbox",
+          "emoji": "📫",
+          "correct": false
+        },
+        {
+          "name": "ruler",
+          "emoji": "📏",
+          "correct": false
+        },
+        {
+          "name": "mouse face",
+          "emoji": "🐭",
+          "correct": true
+        }
+      ],
+      "hash": "76b4d32b3852"
+    },
+    {
+      "type": "SLEEP",
+      "question": "WHERE SHOULD THE KITTEN SLEEP?",
+      "narration": "Bedtime! Choose a cozy place!",
+      "reveal_line": "Yes! A cozy pillow. Good night!",
+      "hero_key": "SLEEP_1",
+      "options": [
+        {
+          "name": "volcano",
+          "emoji": "🌋",
+          "correct": false
+        },
+        {
+          "name": "pillow",
+          "emoji": "🛏️",
+          "correct": true
+        },
+        {
+          "name": "tornado",
+          "emoji": "🌪️",
+          "correct": false
+        },
+        {
+          "name": "kite",
+          "emoji": "🪁",
+          "correct": false
+        }
+      ],
+      "hash": "5a4602ed5f62"
+    }
+  ]
+}

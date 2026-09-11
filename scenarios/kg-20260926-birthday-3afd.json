@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260926-birthday-3afd",
+  "story": "birthday",
+  "story_label": "Kitty's Birthday",
+  "publish_day": "2026-09-26",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "FOOD",
+      "question": "CHOOSE A FOOD FOR THE KITTEN",
+      "narration": "Feed the kitten! Choose correctly!",
+      "reveal_line": "Yes! The glass of milk. Yummy!",
+      "hero_key": "FOOD_1",
+      "options": [
+        {
+          "name": "socks",
+          "emoji": "🧦",
+          "correct": false
+        },
+        {
+          "name": "glass of milk",
+          "emoji": "🥛",
+          "correct": true
+        },
+        {
+          "name": "battery",
+          "emoji": "🔋",
+          "correct": false
+        },
+        {
+          "name": "sock",
+          "emoji": "🧦",
+          "correct": false
+        }
+      ],
+      "hash": "c3b2aaef3a2e"
+    },
+    {
+      "type": "BIRTHDAY",
+      "question": "CHOOSE A BIRTHDAY GIFT",
+      "narration": "Happy birthday, kitty! Pick a present!",
+      "reveal_line": "That's right! What a great gift!",
+      "hero_key": "BIRTHDAY_1",
+      "options": [
+        {
+          "name": "camera",
+          "emoji": "📷",
+          "correct": false
+        },
+        {
+          "name": "scooter",
+          "emoji": "🛴",
+          "correct": false
+        },
+        {
+          "name": "birthday cake",
+          "emoji": "🎂",
+          "correct": true
+        },
+        {
+          "name": "abacus",
+          "emoji": "🧮",
+          "correct": false
+        }
+      ],
+      "hash": "8c4abb563186"
+    },
+    {
+      "type": "TOY",
+      "question": "CHOOSE A TOY FOR THE KITTEN",
+      "narration": "Choose a toy for the kitten. Be careful!",
+      "reveal_line": "That's right, the ping pong ball!",
+      "hero_key": "TOY_2",
+      "options": [
+        {
+          "name": "snake",
+          "emoji": "🐍",
+          "correct": false
+        },
+        {
+          "name": "ping pong ball",
+          "emoji": "🏓",
+          "correct": true
+        },
+        {
+          "name": "cactus",
+          "emoji": "🌵",
+          "correct": false
+        },
+        {
+          "name": "backpack",
+          "emoji": "🎒",
+          "correct": false
+        }
+      ],
+      "hash": "398492bbfd00"
+    },
+    {
+      "type": "DRINK",
+      "question": "THE KITTEN IS THIRSTY",
+      "narration": "The kitten is thirsty! Choose a drink!",
+      "reveal_line": "That's right! cup with straw for the kitten!",
+      "hero_key": "DRINK_2",
+      "options": [
+        {
+          "name": "cup with straw",
+          "emoji": "🥤",
+          "correct": true
+        },
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        },
+        {
+          "name": "candle",
+          "emoji": "🕯️",
+          "correct": false
+        },
+        {
+          "name": "clock",
+          "emoji": "⏰",
+          "correct": false
+        }
+      ],
+      "hash": "8aa799d3f0fd"
+    },
+    {
+      "type": "ODD",
+      "question": "FIND THE ODD ONE OUT",
+      "narration": "Which one is different? Choose correctly!",
+      "reveal_line": "Yes! The pear is different!",
+      "hero_key": "ODD_2",
+      "options": [
+        {
+          "name": "red apple",
+          "emoji": "🍎",
+          "correct": false
+        },
+        {
+          "name": "red apple",
+          "emoji": "🍎",
+          "correct": false
+        },
+        {
+          "name": "pear",
+          "emoji": "🍐",
+          "correct": true
+        },
+        {
+          "name": "red apple",
+          "emoji": "🍎",
+          "correct": false
+        }
+      ],
+      "hash": "df0d555733e9"
+    },
+    {
+      "type": "SLEEP",
+      "question": "WHERE SHOULD THE KITTEN SLEEP?",
+      "narration": "The kitten is sleepy. Where should it sleep?",
+      "reveal_line": "Yes! A cozy blanket. Good night!",
+      "hero_key": "SLEEP_2",
+      "options": [
+        {
+          "name": "kite",
+          "emoji": "🪁",
+          "correct": false
+        },
+        {
+          "name": "guitar",
+          "emoji": "🎸",
+          "correct": false
+        },
+        {
+          "name": "loudspeaker",
+          "emoji": "📢",
+          "correct": false
+        },
+        {
+          "name": "blanket",
+          "emoji": "🛌",
+          "correct": true
+        }
+      ],
+      "hash": "2a5d889edc5f"
+    }
+  ]
+}

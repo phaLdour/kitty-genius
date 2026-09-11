@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260925-rainyday-ed6d",
+  "story": "rainy_day",
+  "story_label": "Rainy Day",
+  "publish_day": "2026-09-25",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "RAIN",
+      "question": "IT'S RAINING! CHOOSE ONE",
+      "narration": "Save the kitten from the rain! Choose fast!",
+      "reveal_line": "Yes! The umbrella. Safe and dry!",
+      "hero_key": "RAIN_1",
+      "options": [
+        {
+          "name": "soap",
+          "emoji": "🧼",
+          "correct": false
+        },
+        {
+          "name": "sunglasses",
+          "emoji": "🕶️",
+          "correct": false
+        },
+        {
+          "name": "bell",
+          "emoji": "🔔",
+          "correct": false
+        },
+        {
+          "name": "umbrella",
+          "emoji": "☂️",
+          "correct": true
+        }
+      ],
+      "hash": "4a53288c1d90"
+    },
+    {
+      "type": "DRINK",
+      "question": "GIVE THE KITTEN A DRINK",
+      "narration": "Give the kitten something to drink. Choose correctly!",
+      "reveal_line": "Yes! The droplet. So refreshing!",
+      "hero_key": "DRINK_2",
+      "options": [
+        {
+          "name": "droplet",
+          "emoji": "💧",
+          "correct": true
+        },
+        {
+          "name": "ice",
+          "emoji": "🧊",
+          "correct": false
+        },
+        {
+          "name": "paint palette",
+          "emoji": "🎨",
+          "correct": false
+        },
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        }
+      ],
+      "hash": "d8a60a87dff7"
+    },
+    {
+      "type": "TOY",
+      "question": "CHOOSE A TOY FOR THE KITTEN",
+      "narration": "The kitten wants to play! Choose a safe toy!",
+      "reveal_line": "That's right, the teddy bear!",
+      "hero_key": "TOY_1",
+      "options": [
+        {
+          "name": "teddy bear",
+          "emoji": "🧸",
+          "correct": true
+        },
+        {
+          "name": "backpack",
+          "emoji": "🎒",
+          "correct": false
+        },
+        {
+          "name": "light bulb",
+          "emoji": "💡",
+          "correct": false
+        },
+        {
+          "name": "honeybee",
+          "emoji": "🐝",
+          "correct": false
+        }
+      ],
+      "hash": "5534727b4ece"
+    },
+    {
+      "type": "BATH",
+      "question": "IT'S BATH TIME! PICK ONE",
+      "narration": "The kitten is so dirty! Where should it wash?",
+      "reveal_line": "Yes! The sponge. Splash splash!",
+      "hero_key": "BATH_1",
+      "options": [
+        {
+          "name": "basket",
+          "emoji": "🧺",
+          "correct": false
+        },
+        {
+          "name": "sponge",
+          "emoji": "🧽",
+          "correct": true
+        },
+        {
+          "name": "volcano",
+          "emoji": "🌋",
+          "correct": false
+        },
+        {
+          "name": "oven",
+          "emoji": "🔥",
+          "correct": false
+        }
+      ],
+      "hash": "d9626430ec02"
+    },
+    {
+      "type": "TEETH",
+      "question": "TIME TO BRUSH TEETH",
+      "narration": "What cleans the kitten's teeth?",
+      "reveal_line": "That's right! Brush brush!",
+      "hero_key": "TEETH_1",
+      "options": [
+        {
+          "name": "yo-yo",
+          "emoji": "🪀",
+          "correct": false
+        },
+        {
+          "name": "toothbrush",
+          "emoji": "🪥",
+          "correct": true
+        },
+        {
+          "name": "lipstick",
+          "emoji": "💄",
+          "correct": false
+        },
+        {
+          "name": "ring",
+          "emoji": "💍",
+          "correct": false
+        }
+      ],
+      "hash": "93d0ec48c143"
+    },
+    {
+      "type": "SLEEP",
+      "question": "THE KITTEN IS SLEEPY",
+      "narration": "Bedtime! Choose a cozy place!",
+      "reveal_line": "That's right. Sweet dreams, kitty!",
+      "hero_key": "SLEEP_1",
+      "options": [
+        {
+          "name": "kite",
+          "emoji": "🪁",
+          "correct": false
+        },
+        {
+          "name": "pillow",
+          "emoji": "🛏️",
+          "correct": true
+        },
+        {
+          "name": "construction",
+          "emoji": "🚧",
+          "correct": false
+        },
+        {
+          "name": "roller coaster",
+          "emoji": "🎢",
+          "correct": false
+        }
+      ],
+      "hash": "1c3d12626844"
+    }
+  ]
+}

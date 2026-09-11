@@ -1,0 +1,1062 @@
+stories:
+  kittys_day:
+    label: Kitty's Day
+    slots:
+    - FOOD
+    - FIND_MOM
+    - TOY
+    - BATH
+    - SLEEP
+    - RAIN
+  rainy_day:
+    label: Rainy Day
+    slots:
+    - RAIN
+    - DRINK
+    - TOY
+    - BATH
+    - TEETH
+    - SLEEP
+  birthday:
+    label: Kitty's Birthday
+    slots:
+    - FOOD
+    - BIRTHDAY
+    - TOY
+    - DRINK
+    - ODD
+    - SLEEP
+  school_day:
+    label: First Day of School
+    slots:
+    - FOOD
+    - SCHOOL
+    - DRINK
+    - ODD
+    - TOY
+    - SLEEP
+  snow_day:
+    label: Snow Day
+    slots:
+    - SNOW
+    - DRINK
+    - TOY
+    - BATH
+    - FOOD
+    - SLEEP
+  lost_kitten:
+    label: Lost Kitten
+    slots:
+    - FIND_MOM
+    - DRINK
+    - RAIN
+    - FOOD
+    - TEETH
+    - SLEEP
+  sunny_day:
+    label: Sunny Day
+    slots:
+    - SUN
+    - FOOD
+    - TOY
+    - ODD
+    - BATH
+    - SLEEP
+  picnic:
+    label: Picnic Day
+    slots:
+    - FOOD
+    - DRINK
+    - TOY
+    - ODD
+    - RAIN
+    - SLEEP
+  lazy_sunday:
+    label: Lazy Sunday
+    slots:
+    - SLEEP
+    - FOOD
+    - TEETH
+    - TOY
+    - DRINK
+    - BATH
+  garden_day:
+    label: Garden Adventure
+    slots:
+    - FIND_MOM
+    - SUN
+    - DRINK
+    - ODD
+    - TOY
+    - SLEEP
+  market_day:
+    label: Market Day
+    slots:
+    - FOOD
+    - TRAVEL
+    - DRINK
+    - ODD
+    - TOY
+    - SLEEP
+  hide_and_seek:
+    label: Hide and Seek
+    slots:
+    - HIDE
+    - TOY
+    - FIND_MOM
+    - FOOD
+    - TEETH
+    - SLEEP
+  music_day:
+    label: Music Day
+    slots:
+    - MUSIC
+    - TOY
+    - DRINK
+    - ODD
+    - FOOD
+    - SLEEP
+  messy_day:
+    label: Messy Day
+    slots:
+    - CLEAN
+    - BATH
+    - FOOD
+    - TOY
+    - ODD
+    - SLEEP
+  new_home:
+    label: A New Home
+    slots:
+    - HOME
+    - FOOD
+    - TOY
+    - DRINK
+    - FIND_MOM
+    - SLEEP
+  beach_day:
+    label: Beach Day
+    slots:
+    - SUN
+    - DRINK
+    - TOY
+    - ODD
+    - FOOD
+    - SLEEP
+  winter_day:
+    label: Winter Day
+    slots:
+    - SNOW
+    - DRINK
+    - FOOD
+    - TOY
+    - BATH
+    - SLEEP
+  party_day:
+    label: Party Day
+    slots:
+    - BIRTHDAY
+    - MUSIC
+    - FOOD
+    - TOY
+    - ODD
+    - SLEEP
+rounds:
+  FOOD:
+    questions:
+    - GIVE THE KITTEN BREAKFAST
+    - FEED THE HUNGRY KITTEN
+    - CHOOSE A FOOD FOR THE KITTEN
+    - THE KITTEN IS HUNGRY! PICK ONE
+    - WHAT SHOULD THE KITTEN EAT?
+    narration:
+    - The kitten is so hungry! Choose the right food!
+    - Feed the kitten! Choose correctly!
+    - What can a kitten eat? Pick one!
+    correct:
+    - - glass of milk
+      - 🥛
+    - - fish
+      - 🐟
+    - - poultry leg
+      - 🍗
+    - - cheese wedge
+      - 🧀
+    - - egg
+      - 🥚
+    - - shrimp
+      - 🦐
+    - - canned food
+      - 🥫
+    - - tuna can
+      - 🥫
+    - - sardine
+      - 🐟
+    - - yogurt
+      - 🥛
+    wrong:
+    - - cactus
+      - 🌵
+    - - running shoe
+      - 👟
+    - - battery
+      - 🔋
+    - - socks
+      - 🧦
+    - - lemon
+      - 🍋
+    - - hot pepper
+      - 🌶️
+    - - balloon
+      - 🎈
+    - - sock
+      - 🧦
+    - - wastebasket
+      - 🗑️
+    - - umbrella
+      - ☂️
+    reveal:
+    - Yes! The {c}. Yummy!
+    - That's right, the {c}!
+    - Yes! Kittens love {c}!
+    heroes:
+      FOOD_1: sitting in front of an empty food bowl, sunny kitchen, morning light
+      FOOD_2: sitting on a picnic blanket in a park with an empty plate, bright afternoon
+      FOOD_3: at a dinner table at evening, empty bowl, warm kitchen lamp light
+      FOOD_4: on a kitchen floor next to an empty tin bowl, hopeful begging eyes, bright morning window light
+      FOOD_5: standing on a wooden chair peeking over a dining table, hungry curious eyes, warm afternoon light
+  DRINK:
+    questions:
+    - THE KITTEN IS THIRSTY
+    - GIVE THE KITTEN A DRINK
+    - CHOOSE A DRINK FOR THE KITTEN
+    - WHAT CAN THE KITTEN DRINK?
+    narration:
+    - The kitten is thirsty! Choose a drink!
+    - Give the kitten something to drink. Choose correctly!
+    correct:
+    - - glass of milk
+      - 🥛
+    - - droplet
+      - 💧
+    - - beverage box
+      - 🧃
+    - - cup with straw
+      - 🥤
+    - - water bottle
+      - 💧
+    wrong:
+    - - hot pepper
+      - 🌶️
+    - - salt
+      - 🧂
+    - - lemon
+      - 🍋
+    - - lotion bottle
+      - 🧴
+    - - ice
+      - 🧊
+    - - paint palette
+      - 🎨
+    - - candle
+      - 🕯️
+    - - clock
+      - ⏰
+    - - bell
+      - 🔔
+    - - key
+      - 🔑
+    reveal:
+    - Yes! The {c}. So refreshing!
+    - That's right! {c} for the kitten!
+    heroes:
+      DRINK_1: sitting next to an empty water bowl in a hot sunny backyard, tongue slightly out
+      DRINK_2: on a kitchen counter looking at an empty cup, bright daylight
+      DRINK_3: next to a dry garden watering can on hot paving stones, thirsty panting, strong sunlight
+      DRINK_4: sitting beside an empty saucer on a balcony at sunset, thirsty hopeful eyes
+  TOY:
+    questions:
+    - CHOOSE A TOY FOR THE KITTEN
+    - THE KITTEN WANTS TO PLAY
+    - PICK A SAFE TOY
+    - PLAYTIME! CHOOSE ONE
+    narration:
+    - The kitten wants to play! Choose a safe toy!
+    - Choose a toy for the kitten. Be careful!
+    correct:
+    - - yarn
+      - 🧶
+    - - soccer ball
+      - ⚽
+    - - teddy bear
+      - 🧸
+    - - feather
+      - 🪶
+    - - balloon
+      - 🎈
+    - - tennis
+      - 🎾
+    - - mouse face
+      - 🐭
+    - - ping pong ball
+      - 🏓
+    - - ribbon
+      - 🎀
+    wrong:
+    - - snake
+      - 🐍
+    - - cactus
+      - 🌵
+    - - honeybee
+      - 🐝
+    - - light bulb
+      - 💡
+    - - magnet
+      - 🧲
+    - - ruler
+      - 📏
+    - - brick
+      - 🧱
+    - - traffic light
+      - 🚦
+    - - mailbox
+      - 📫
+    - - shopping cart
+      - 🛒
+    - - backpack
+      - 🎒
+    reveal:
+    - Yes! The {c}. So fun!
+    - That's right, the {c}!
+    heroes:
+      TOY_1: crouched ready to pounce on a bright living room carpet, playful sparkling eyes
+      TOY_2: on a wooden floor in a playroom full of colorful toys, excited
+      TOY_3: mid-pounce leap on a fluffy rug, ears back, thrilled playful eyes, bright living room
+      TOY_4: batting at nothing on a sunlit hardwood floor, tail up, excited bright eyes
+  FIND_MOM:
+    questions:
+    - FIND THE KITTEN'S MOM
+    - WHICH ONE IS THE MOMMY?
+    - WHERE IS THE KITTEN'S MOTHER?
+    - HELP THE KITTEN FIND MOM
+    narration:
+    - Which one is the kitten's mom? Find her!
+    - The kitten lost its mom! Which one is she?
+    correct:
+    - - cat
+      - 🐈
+    wrong:
+    - - dog
+      - 🐕
+    - - cow
+      - 🐄
+    - - chicken
+      - 🐔
+    - - pig
+      - 🐷
+    - - ewe
+      - 🐑
+    - - duck
+      - 🦆
+    - - rabbit
+      - 🐰
+    - - horse
+      - 🐴
+    - - frog
+      - 🐸
+    - - goat
+      - 🐐
+    - - mailbox
+      - 📫
+    reveal:
+    - Yes! That's the mommy cat!
+    - That's right! Mommy is here!
+    heroes:
+      FIND_MOM_1: alone in a big sunny garden, worried, looking around
+      FIND_MOM_2: alone on a quiet village street at golden hour, worried
+      FIND_MOM_3: alone in a big empty meadow at midday, tiny and worried, looking up
+      FIND_MOM_4: sitting alone under a park bench, sad worried eyes, soft afternoon light
+  BATH:
+    questions:
+    - IT'S BATH TIME! PICK ONE
+    - THE KITTEN IS DIRTY! WHERE TO WASH?
+    - CHOOSE WHERE THE KITTEN GETS CLEAN
+    narration:
+    - It's bath time! Pick the right one!
+    - The kitten is so dirty! Where should it wash?
+    correct:
+    - - bathtub
+      - 🛁
+    - - shower
+      - 🚿
+    - - soap
+      - 🧼
+    - - sponge
+      - 🧽
+    wrong:
+    - - toilet
+      - 🚽
+    - - volcano
+      - 🌋
+    - - ice
+      - 🧊
+    - - basket
+      - 🧺
+    - - oven
+      - 🔥
+    - - tornado
+      - 🌪️
+    - - mud
+      - 🟤
+    - - paint palette
+      - 🎨
+    - - glue
+      - 🧴
+    - - kite
+      - 🪁
+    - - yo-yo
+      - 🪀
+    reveal:
+    - Yes! The {c}. Splash splash!
+    - That's right! Time to get clean!
+    heroes:
+      BATH_1: covered in mud splashes, sheepish embarrassed expression, bright clean bathroom
+      BATH_2: covered in flour and crumbs in a kitchen, guilty little smile
+      BATH_3: soaking wet with soap suds on its head in a bright bathroom, surprised wide eyes
+      BATH_4: covered in colorful paint smudges in a sunny craft room, guilty little face
+  SLEEP:
+    questions:
+    - THE KITTEN IS SLEEPY
+    - WHERE SHOULD THE KITTEN SLEEP?
+    - BEDTIME! CHOOSE ONE
+    - PICK A COZY PLACE TO SLEEP
+    narration:
+    - The kitten is sleepy. Where should it sleep?
+    - Bedtime! Choose a cozy place!
+    correct:
+    - - bed
+      - 🛏️
+    - - couch and lamp
+      - 🛋️
+    - - basket
+      - 🧺
+    - - blanket
+      - 🛌
+    - - pillow
+      - 🛏️
+    wrong:
+    - - trumpet
+      - 🎺
+    - - construction
+      - 🚧
+    - - tornado
+      - 🌪️
+    - - drum
+      - 🥁
+    - - rocket
+      - 🚀
+    - - roller coaster
+      - 🎢
+    - - volcano
+      - 🌋
+    - - loudspeaker
+      - 📢
+    - - guitar
+      - 🎸
+    - - kite
+      - 🪁
+    reveal:
+    - Yes! A cozy {c}. Good night!
+    - That's right. Sweet dreams, kitty!
+    heroes:
+      SLEEP_1: extremely sleepy, mid-yawn, curled on a cushion, cozy bedroom at night, warm lamp glow
+      SLEEP_2: sleepy with heavy eyelids, sitting on a windowsill at dusk, soft blue evening light
+      SLEEP_3: yawning wide on a soft blanket in a dim cozy bedroom, very sleepy
+      SLEEP_4: half asleep with one eye closed on a couch cushion, warm evening lamp light
+  RAIN:
+    questions:
+    - SAVE THE KITTEN FROM THE RAIN
+    - IT'S RAINING! CHOOSE ONE
+    - KEEP THE KITTEN DRY
+    narration:
+    - Save the kitten from the rain! Choose fast!
+    - It's raining! What keeps the kitten dry?
+    correct:
+    - - house
+      - 🏠
+    - - tent
+      - ⛺
+    - - umbrella
+      - ☂️
+    - - bucket
+      - 🪣
+    wrong:
+    - - fork and knife
+      - 🍴
+    - - kite
+      - 🪁
+    - - ice cream
+      - 🍦
+    - - sunglasses
+      - 🕶️
+    - - bikini
+      - 🩳
+    - - fishing pole
+      - 🎣
+    - - soap
+      - 🧼
+    - - sponge
+      - 🧽
+    - - book
+      - 📕
+    - - clock
+      - ⏰
+    - - bell
+      - 🔔
+    reveal:
+    - Yes! The {c}. Safe and dry!
+    - That's right! No more rain!
+    heroes:
+      RAIN_1: scared and shivering under heavy rain on a city sidewalk, wet ruffled fur, dramatic stormy light
+      RAIN_2: under heavy rain in a garden next to a fence, wet fur, pleading eyes
+      RAIN_3: soaked under pouring rain beside a puddle at night, streetlights glowing, pleading eyes
+      RAIN_4: wet and shivering on a porch step during a rainstorm, worried eyes
+  SNOW:
+    questions:
+    - IT'S SNOWING! WHAT SHOULD THE KITTEN WEAR?
+    - KEEP THE KITTEN WARM
+    - BRR! CHOOSE ONE
+    narration:
+    - It's snowing! Keep the kitten warm!
+    - Brr, so cold! What should the kitten wear?
+    correct:
+    - - scarf
+      - 🧣
+    - - gloves
+      - 🧤
+    - - coat
+      - 🧥
+    - - billed cap
+      - 🧢
+    wrong:
+    - - shorts
+      - 🩳
+    - - thong sandal
+      - 🩴
+    - - sunglasses
+      - 🕶️
+    - - ice cream
+      - 🍦
+    - - ice
+      - 🧊
+    - - swim brief
+      - 🩲
+    - - popsicle
+      - 🍧
+    - - ladder
+      - 🪜
+    - - chair
+      - 🪑
+    - - bucket
+      - 🪣
+    - - light bulb
+      - 💡
+    reveal:
+    - Yes! The {c}. Warm and cozy!
+    - That's right! No more shivering!
+    heroes:
+      SNOW_1: in falling snow in a snowy backyard, shivering, big eyes, snowflakes on fur
+      SNOW_2: sitting in deep snow in a winter forest, shivering, breath visible, big pleading eyes
+      SNOW_3: on a snowy doorstep with snowflakes on its nose, cold and hopeful
+  SUN:
+    questions:
+    - IT'S SO HOT! HELP THE KITTEN
+    - KEEP THE KITTEN COOL
+    - SUNNY DAY! CHOOSE ONE
+    narration:
+    - It's so hot outside! Help the kitten stay cool!
+    - Sunny day! What does the kitten need?
+    correct:
+    - - billed cap
+      - 🧢
+    - - droplet
+      - 💧
+    - - beach with umbrella
+      - 🏖️
+    - - ice cream
+      - 🍦
+    wrong:
+    - - coat
+      - 🧥
+    - - scarf
+      - 🧣
+    - - hot pepper
+      - 🌶️
+    - - gloves
+      - 🧤
+    - - blanket
+      - 🛌
+    - - candle
+      - 🕯️
+    - - ruler
+      - 📏
+    - - brick
+      - 🧱
+    - - traffic light
+      - 🚦
+    - - mailbox
+      - 📫
+    - - shopping cart
+      - 🛒
+    reveal:
+    - Yes! The {c}. So cool!
+    - That's right! Much better!
+    heroes:
+      SUN_1: panting in bright hot sunshine on a garden path, squinting, very sunny
+      SUN_2: lying flat on hot patio stones in blazing sun, panting, squinting eyes
+      SUN_3: sitting on a bright sandy beach at noon, squinting in strong sunlight, panting
+  BIRTHDAY:
+    questions:
+    - IT'S THE KITTEN'S BIRTHDAY! PICK ONE
+    - CHOOSE A BIRTHDAY GIFT
+    - HAPPY BIRTHDAY! WHAT DOES THE KITTEN GET?
+    narration:
+    - It's the kitten's birthday! Choose a gift!
+    - Happy birthday, kitty! Pick a present!
+    correct:
+    - - birthday cake
+      - 🎂
+    - - wrapped gift
+      - 🎁
+    - - balloon
+      - 🎈
+    - - party popper
+      - 🎉
+    - - teddy bear
+      - 🧸
+    wrong:
+    - - socks
+      - 🧦
+    - - onion
+      - 🧅
+    - - glasses
+      - 👓
+    - - watch
+      - ⌚
+    - - camera
+      - 📷
+    - - telephone
+      - ☎️
+    - - scooter
+      - 🛴
+    - - tire
+      - 🛞
+    - - abacus
+      - 🧮
+    - - kite
+      - 🪁
+    reveal:
+    - Yes! The {c}. Happy birthday!
+    - That's right! What a great gift!
+    heroes:
+      BIRTHDAY_1: wearing a tiny party hat at a birthday table with candles and confetti, thrilled sparkling eyes
+      BIRTHDAY_2: surrounded by colorful balloons and a small cake, wearing a party hat, joyful wide eyes
+      BIRTHDAY_3: in front of a gift box with a ribbon, thrilled surprised expression, festive room
+  SCHOOL:
+    questions:
+    - THE KITTEN GOES TO SCHOOL! PICK ONE
+    - WHAT DOES THE KITTEN NEED FOR SCHOOL?
+    - SCHOOL TIME! CHOOSE ONE
+    narration:
+    - The kitten's first day of school! What does it need?
+    - School time! Choose correctly!
+    correct:
+    - - backpack
+      - 🎒
+    - - pencil
+      - ✏️
+    - - books
+      - 📚
+    - - notebook
+      - 📓
+    wrong:
+    - - skateboard
+      - 🛹
+    - - guitar
+      - 🎸
+    - - pizza
+      - 🍕
+    - - pillow
+      - 🛌
+    - - snake
+      - 🐍
+    - - sock
+      - 🧦
+    - - wastebasket
+      - 🗑️
+    - - umbrella
+      - ☂️
+    - - broom
+      - 🧹
+    - - teapot
+      - 🫖
+    - - soap
+      - 🧼
+    reveal:
+    - Yes! The {c}. Ready for school!
+    - That's right! Let's learn!
+    heroes:
+      SCHOOL_1: wearing a tiny backpack in front of a colorful school building, eager proud eyes, morning
+      SCHOOL_2: sitting at a small school desk with a notebook, attentive eager eyes, sunny classroom
+      SCHOOL_3: walking on a sidewalk with a tiny backpack on a bright morning, proud confident eyes
+  TEETH:
+    questions:
+    - BRUSH THE KITTEN'S TEETH! PICK ONE
+    - TIME TO BRUSH TEETH
+    - WHAT CLEANS THE KITTEN'S TEETH?
+    narration:
+    - Time to brush the kitten's teeth! Choose correctly!
+    - What cleans the kitten's teeth?
+    correct:
+    - - toothbrush
+      - 🪥
+    wrong:
+    - - paintbrush
+      - 🖌️
+    - - wrench
+      - 🔧
+    - - fork and knife
+      - 🍴
+    - - comb
+      - 🪮
+    - - lipstick
+      - 💄
+    - - yo-yo
+      - 🪀
+    - - flashlight
+      - 🔦
+    - - toolbox
+      - 🧰
+    - - anchor
+      - ⚓
+    - - ring
+      - 💍
+    - - sock
+      - 🧦
+    reveal:
+    - Yes! The toothbrush. Sparkly teeth!
+    - That's right! Brush brush!
+    heroes:
+      TEETH_1: in a bright bathroom in front of a mirror, mouth slightly open showing tiny teeth, curious
+      TEETH_2: sitting on a bathroom counter next to a cup, mouth open showing tiny teeth, curious
+      TEETH_3: looking up with a wide open mouth in a bright bathroom, playful curious eyes
+  ODD:
+    questions:
+    - FIND THE ODD ONE OUT
+    - WHICH ONE IS DIFFERENT?
+    - ONE IS NOT LIKE THE OTHERS
+    narration:
+    - Find the odd one out! Look carefully!
+    - Which one is different? Choose correctly!
+    pairs:
+    - - - cat
+        - 🐈
+      - - dog
+        - 🐕
+    - - - red apple
+        - 🍎
+      - - pear
+        - 🍐
+    - - - banana
+        - 🍌
+      - - ear of corn
+        - 🌽
+    - - - soccer ball
+        - ⚽
+      - - basketball
+        - 🏀
+    - - - strawberry
+        - 🍓
+      - - cherries
+        - 🍒
+    - - - glass of milk
+        - 🥛
+      - - beverage box
+        - 🧃
+    - - - duck
+        - 🦆
+      - - chicken
+        - 🐔
+    - - - teddy bear
+        - 🧸
+      - - rabbit
+        - 🐰
+    - - - car
+        - 🚗
+      - - bus
+        - 🚌
+    - - - guitar
+        - 🎸
+      - - drum
+        - 🥁
+    - - - house
+        - 🏠
+      - - tent
+        - ⛺
+    - - - fish
+        - 🐟
+      - - shrimp
+        - 🦐
+    - - - balloon
+        - 🎈
+      - - wrapped gift
+        - 🎁
+    reveal:
+    - Yes! The {c} is different!
+    - That's right! The {c} is the odd one!
+    heroes:
+      ODD_1: head tilted, curious thinking expression, in a bright playroom
+      ODD_2: looking through a magnifying glass, curious, on a wooden table
+      ODD_3: sitting with one paw raised, puzzled thinking face, bright simple room
+      ODD_4: squinting one eye in a comically suspicious expression, on a light wooden table
+  HIDE:
+    questions:
+    - WHERE SHOULD THE KITTEN HIDE?
+    - HELP THE KITTEN HIDE!
+    - PICK A GOOD HIDING SPOT
+    narration:
+    - Let's play hide and seek! Where should the kitten hide?
+    - Help the kitten hide! Choose correctly!
+    correct:
+    - - box
+      - 📦
+    - - basket
+      - 🧺
+    - - blanket
+      - 🛌
+    - - backpack
+      - 🎒
+    wrong:
+    - - volcano
+      - 🌋
+    - - cactus
+      - 🌵
+    - - tornado
+      - 🌪️
+    - - construction
+      - 🚧
+    - - rocket
+      - 🚀
+    - - oven
+      - 🔥
+    - - snake
+      - 🐍
+    - - light bulb
+      - 💡
+    - - magnet
+      - 🧲
+    - - puzzle piece
+      - 🧩
+    - - crayon
+      - 🖍️
+    reveal:
+    - Yes! The {c}. Nobody can see you!
+    - That's right! Hide in the {c}!
+    heroes:
+      HIDE_1: peeking out from behind a sofa in a bright living room, playful sneaky expression
+      HIDE_2: crouching next to a cardboard box on a wooden floor, big curious eyes
+      HIDE_3: peeking out from under a bed with only its head visible, sneaky playful eyes
+      HIDE_4: hiding behind a curtain, one eye peeking, bright sunny room
+  TRAVEL:
+    questions:
+    - HOW SHOULD THE KITTEN TRAVEL?
+    - THE KITTEN IS GOING ON A TRIP
+    - PICK A RIDE FOR THE KITTEN
+    narration:
+    - The kitten is going on a trip! How should it travel?
+    - Pick a safe ride for the kitten!
+    correct:
+    - - car
+      - 🚗
+    - - bus
+      - 🚌
+    - - bicycle
+      - 🚲
+    - - train
+      - 🚆
+    - - boat
+      - ⛵
+    wrong:
+    - - rocket
+      - 🚀
+    - - tornado
+      - 🌪️
+    - - roller coaster
+      - 🎢
+    - - bathtub
+      - 🛁
+    - - shopping cart
+      - 🛒
+    - - skateboard
+      - 🛹
+    - - balloon
+      - 🎈
+    - - glasses
+      - 👓
+    - - watch
+      - ⌚
+    - - camera
+      - 📷
+    - - telephone
+      - ☎️
+    reveal:
+    - Yes! The {c}. Off we go!
+    - That's right! Hop in the {c}!
+    heroes:
+      TRAVEL_1: sitting next to a tiny suitcase at a sunny doorway, excited eyes
+      TRAVEL_2: looking out of a car window on a sunny road trip, ears up, curious
+      TRAVEL_3: sitting inside an open travel bag on a sunny floor, excited perky ears
+      TRAVEL_4: on a train seat looking out the window at bright scenery, curious wide eyes
+  MUSIC:
+    questions:
+    - THE KITTEN WANTS MUSIC
+    - PICK AN INSTRUMENT
+    - WHAT MAKES BEAUTIFUL MUSIC?
+    narration:
+    - The kitten loves music! Pick an instrument!
+    - Which one makes music? Choose correctly!
+    correct:
+    - - guitar
+      - 🎸
+    - - piano
+      - 🎹
+    - - drum
+      - 🥁
+    - - trumpet
+      - 🎺
+    - - violin
+      - 🎻
+    wrong:
+    - - toilet
+      - 🚽
+    - - wrench
+      - 🔧
+    - - onion
+      - 🧅
+    - - watch
+      - ⌚
+    - - camera
+      - 📷
+    - - telephone
+      - ☎️
+    - - scooter
+      - 🛴
+    - - tire
+      - 🛞
+    - - crown
+      - 👑
+    - - gift
+      - 🎁
+    - - envelope
+      - ✉️
+    reveal:
+    - Yes! The {c}. What a song!
+    - That's right! Play the {c}!
+    heroes:
+      MUSIC_1: sitting next to a small guitar in a warm living room, head tilted, happy eyes
+      MUSIC_2: sitting on a piano keyboard in a bright living room, surprised delighted eyes
+      MUSIC_3: next to a small toy drum, one paw raised, excited happy face
+  CLEAN:
+    questions:
+    - HELP THE KITTEN CLEAN UP
+    - WHAT CLEANS THE MESS?
+    - TIME TO TIDY UP! PICK ONE
+    narration:
+    - What a mess! What should the kitten clean with?
+    - Help the kitten tidy up! Choose correctly!
+    correct:
+    - - broom
+      - 🧹
+    - - bucket
+      - 🪣
+    - - sponge
+      - 🧽
+    - - soap
+      - 🧼
+    - - wastebasket
+      - 🗑️
+    wrong:
+    - - guitar
+      - 🎸
+    - - birthday cake
+      - 🎂
+    - - paint palette
+      - 🎨
+    - - trumpet
+      - 🎺
+    - - cactus
+      - 🌵
+    - - chair
+      - 🪑
+    - - light bulb
+      - 💡
+    - - magnet
+      - 🧲
+    - - puzzle piece
+      - 🧩
+    - - crayon
+      - 🖍️
+    - - ruler
+      - 📏
+    reveal:
+    - Yes! The {c}. All clean!
+    - That's right! Sweep sweep!
+    heroes:
+      CLEAN_1: sitting in a messy room with scattered toys and paper, wide surprised eyes
+      CLEAN_2: standing in a room full of scattered laundry, wide guilty eyes, bright daylight
+      CLEAN_3: sitting next to a tipped-over basket of toys, sheepish embarrassed face
+  HOME:
+    questions:
+    - WHERE DOES THE KITTEN LIVE?
+    - PICK A HOME FOR THE KITTEN
+    - THE KITTEN NEEDS A HOME
+    narration:
+    - The kitten needs a home! Which one is right?
+    - Pick a cozy home for the kitten!
+    correct:
+    - - house
+      - 🏠
+    - - basket
+      - 🧺
+    - - tent
+      - ⛺
+    wrong:
+    - - volcano
+      - 🌋
+    - - rocket
+      - 🚀
+    - - construction
+      - 🚧
+    - - toilet
+      - 🚽
+    - - oven
+      - 🔥
+    - - clock
+      - ⏰
+    - - bell
+      - 🔔
+    - - bucket
+      - 🪣
+    - - light bulb
+      - 💡
+    - - magnet
+      - 🧲
+    - - puzzle piece
+      - 🧩
+    reveal:
+    - Yes! A cozy {c}. Home sweet home!
+    - That's right! The {c} is perfect!
+    heroes:
+      HOME_1: sitting on a doorstep in front of a warm house at golden hour, hopeful eyes
+      HOME_2: sitting in a bright empty room with moving boxes, curious hopeful eyes
+      HOME_3: looking up at a cozy front door with a welcome mat, hopeful expectant eyes

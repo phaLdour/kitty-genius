@@ -1,0 +1,189 @@
+{
+  "id": "kg-20260928-lazysunday-c903",
+  "story": "lazy_sunday",
+  "story_label": "Lazy Sunday",
+  "publish_day": "2026-09-28",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "SLEEP",
+      "question": "BEDTIME! CHOOSE ONE",
+      "narration": "The kitten is sleepy. Where should it sleep?",
+      "reveal_line": "Yes! A cozy pillow. Good night!",
+      "hero_key": "SLEEP_2",
+      "options": [
+        {
+          "name": "pillow",
+          "emoji": "🛏️",
+          "correct": true
+        },
+        {
+          "name": "rocket",
+          "emoji": "🚀",
+          "correct": false
+        },
+        {
+          "name": "drum",
+          "emoji": "🥁",
+          "correct": false
+        },
+        {
+          "name": "trumpet",
+          "emoji": "🎺",
+          "correct": false
+        }
+      ],
+      "hash": "8fec3eabdd88"
+    },
+    {
+      "type": "FOOD",
+      "question": "WHAT SHOULD THE KITTEN EAT?",
+      "narration": "Feed the kitten! Choose correctly!",
+      "reveal_line": "That's right, the canned food!",
+      "hero_key": "FOOD_1",
+      "options": [
+        {
+          "name": "cactus",
+          "emoji": "🌵",
+          "correct": false
+        },
+        {
+          "name": "battery",
+          "emoji": "🔋",
+          "correct": false
+        },
+        {
+          "name": "canned food",
+          "emoji": "🥫",
+          "correct": true
+        },
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        }
+      ],
+      "hash": "fad1ebc6118e"
+    },
+    {
+      "type": "TEETH",
+      "question": "WHAT CLEANS THE KITTEN'S TEETH?",
+      "narration": "Time to brush the kitten's teeth! Choose correctly!",
+      "reveal_line": "Yes! The toothbrush. Sparkly teeth!",
+      "hero_key": "TEETH_1",
+      "options": [
+        {
+          "name": "toothbrush",
+          "emoji": "🪥",
+          "correct": true
+        },
+        {
+          "name": "anchor",
+          "emoji": "⚓",
+          "correct": false
+        },
+        {
+          "name": "sock",
+          "emoji": "🧦",
+          "correct": false
+        },
+        {
+          "name": "yo-yo",
+          "emoji": "🪀",
+          "correct": false
+        }
+      ],
+      "hash": "fb2a1609d2c6"
+    },
+    {
+      "type": "TOY",
+      "question": "PLAYTIME! CHOOSE ONE",
+      "narration": "Choose a toy for the kitten. Be careful!",
+      "reveal_line": "Yes! The balloon. So fun!",
+      "hero_key": "TOY_1",
+      "options": [
+        {
+          "name": "brick",
+          "emoji": "🧱",
+          "correct": false
+        },
+        {
+          "name": "balloon",
+          "emoji": "🎈",
+          "correct": true
+        },
+        {
+          "name": "light bulb",
+          "emoji": "💡",
+          "correct": false
+        },
+        {
+          "name": "snake",
+          "emoji": "🐍",
+          "correct": false
+        }
+      ],
+      "hash": "4642abb71ed0"
+    },
+    {
+      "type": "DRINK",
+      "question": "THE KITTEN IS THIRSTY",
+      "narration": "Give the kitten something to drink. Choose correctly!",
+      "reveal_line": "That's right! beverage box for the kitten!",
+      "hero_key": "DRINK_1",
+      "options": [
+        {
+          "name": "candle",
+          "emoji": "🕯️",
+          "correct": false
+        },
+        {
+          "name": "clock",
+          "emoji": "⏰",
+          "correct": false
+        },
+        {
+          "name": "beverage box",
+          "emoji": "🧃",
+          "correct": true
+        },
+        {
+          "name": "lemon",
+          "emoji": "🍋",
+          "correct": false
+        }
+      ],
+      "hash": "b9690dec2434"
+    },
+    {
+      "type": "BATH",
+      "question": "THE KITTEN IS DIRTY! WHERE TO WASH?",
+      "narration": "The kitten is so dirty! Where should it wash?",
+      "reveal_line": "That's right! Time to get clean!",
+      "hero_key": "BATH_2",
+      "options": [
+        {
+          "name": "sponge",
+          "emoji": "🧽",
+          "correct": true
+        },
+        {
+          "name": "paint palette",
+          "emoji": "🎨",
+          "correct": false
+        },
+        {
+          "name": "glue",
+          "emoji": "🧴",
+          "correct": false
+        },
+        {
+          "name": "toilet",
+          "emoji": "🚽",
+          "correct": false
+        }
+      ],
+      "hash": "34d63e724529"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "kg-20261002-lostkitten-2ee9",
+  "story": "lost_kitten",
+  "story_label": "Lost Kitten",
+  "publish_day": "2026-10-02",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "FIND_MOM",
+      "question": "WHICH ONE IS THE MOMMY?",
+      "narration": "Which one is the kitten's mom? Find her!",
+      "reveal_line": "That's right! Mommy is here!",
+      "hero_key": "FIND_MOM_1",
+      "options": [
+        {
+          "name": "cat",
+          "emoji": "🐈",
+          "correct": true
+        },
+        {
+          "name": "ewe",
+          "emoji": "🐑",
+          "correct": false
+        },
+        {
+          "name": "duck",
+          "emoji": "🦆",
+          "correct": false
+        },
+        {
+          "name": "pig",
+          "emoji": "🐷",
+          "correct": false
+        }
+      ],
+      "hash": "321f0d3897ca"
+    },
+    {
+      "type": "DRINK",
+      "question": "GIVE THE KITTEN A DRINK",
+      "narration": "The kitten is thirsty! Choose a drink!",
+      "reveal_line": "That's right! water bottle for the kitten!",
+      "hero_key": "DRINK_1",
+      "options": [
+        {
+          "name": "candle",
+          "emoji": "🕯️",
+          "correct": false
+        },
+        {
+          "name": "bell",
+          "emoji": "🔔",
+          "correct": false
+        },
+        {
+          "name": "water bottle",
+          "emoji": "💧",
+          "correct": true
+        },
+        {
+          "name": "salt",
+          "emoji": "🧂",
+          "correct": false
+        }
+      ],
+      "hash": "41df0f006170"
+    },
+    {
+      "type": "RAIN",
+      "question": "SAVE THE KITTEN FROM THE RAIN",
+      "narration": "It's raining! What keeps the kitten dry?",
+      "reveal_line": "Yes! The tent. Safe and dry!",
+      "hero_key": "RAIN_1",
+      "options": [
+        {
+          "name": "sunglasses",
+          "emoji": "🕶️",
+          "correct": false
+        },
+        {
+          "name": "bikini",
+          "emoji": "🩳",
+          "correct": false
+        },
+        {
+          "name": "book",
+          "emoji": "📕",
+          "correct": false
+        },
+        {
+          "name": "tent",
+          "emoji": "⛺",
+          "correct": true
+        }
+      ],
+      "hash": "19ebe412cb18"
+    },
+    {
+      "type": "FOOD",
+      "question": "FEED THE HUNGRY KITTEN",
+      "narration": "Feed the kitten! Choose correctly!",
+      "reveal_line": "That's right, the poultry leg!",
+      "hero_key": "FOOD_3",
+      "options": [
+        {
+          "name": "wastebasket",
+          "emoji": "🗑️",
+          "correct": false
+        },
+        {
+          "name": "socks",
+          "emoji": "🧦",
+          "correct": false
+        },
+        {
+          "name": "cactus",
+          "emoji": "🌵",
+          "correct": false
+        },
+        {
+          "name": "poultry leg",
+          "emoji": "🍗",
+          "correct": true
+        }
+      ],
+      "hash": "d865e1efecf2"
+    },
+    {
+      "type": "TEETH",
+      "question": "TIME TO BRUSH TEETH",
+      "narration": "Time to brush the kitten's teeth! Choose correctly!",
+      "reveal_line": "That's right! Brush brush!",
+      "hero_key": "TEETH_1",
+      "options": [
+        {
+          "name": "anchor",
+          "emoji": "⚓",
+          "correct": false
+        },
+        {
+          "name": "sock",
+          "emoji": "🧦",
+          "correct": false
+        },
+        {
+          "name": "ring",
+          "emoji": "💍",
+          "correct": false
+        },
+        {
+          "name": "toothbrush",
+          "emoji": "🪥",
+          "correct": true
+        }
+      ],
+      "hash": "2f3b1f43ee90"
+    },
+    {
+      "type": "SLEEP",
+      "question": "BEDTIME! CHOOSE ONE",
+      "narration": "Bedtime! Choose a cozy place!",
+      "reveal_line": "Yes! A cozy blanket. Good night!",
+      "hero_key": "SLEEP_2",
+      "options": [
+        {
+          "name": "loudspeaker",
+          "emoji": "📢",
+          "correct": false
+        },
+        {
+          "name": "drum",
+          "emoji": "🥁",
+          "correct": false
+        },
+        {
+          "name": "blanket",
+          "emoji": "🛌",
+          "correct": true
+        },
+        {
+          "name": "tornado",
+          "emoji": "🌪️",
+          "correct": false
+        }
+      ],
+      "hash": "8290e3d686fd"
+    }
+  ]
+}

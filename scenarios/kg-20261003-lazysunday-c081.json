@@ -1,0 +1,189 @@
+{
+  "id": "kg-20261003-lazysunday-c081",
+  "story": "lazy_sunday",
+  "story_label": "Lazy Sunday",
+  "publish_day": "2026-10-03",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "SLEEP",
+      "question": "PICK A COZY PLACE TO SLEEP",
+      "narration": "The kitten is sleepy. Where should it sleep?",
+      "reveal_line": "Yes! A cozy pillow. Good night!",
+      "hero_key": "SLEEP_1",
+      "options": [
+        {
+          "name": "loudspeaker",
+          "emoji": "📢",
+          "correct": false
+        },
+        {
+          "name": "kite",
+          "emoji": "🪁",
+          "correct": false
+        },
+        {
+          "name": "pillow",
+          "emoji": "🛏️",
+          "correct": true
+        },
+        {
+          "name": "drum",
+          "emoji": "🥁",
+          "correct": false
+        }
+      ],
+      "hash": "d90ee1a4404b"
+    },
+    {
+      "type": "FOOD",
+      "question": "WHAT SHOULD THE KITTEN EAT?",
+      "narration": "What can a kitten eat? Pick one!",
+      "reveal_line": "That's right, the poultry leg!",
+      "hero_key": "FOOD_1",
+      "options": [
+        {
+          "name": "umbrella",
+          "emoji": "☂️",
+          "correct": false
+        },
+        {
+          "name": "socks",
+          "emoji": "🧦",
+          "correct": false
+        },
+        {
+          "name": "poultry leg",
+          "emoji": "🍗",
+          "correct": true
+        },
+        {
+          "name": "running shoe",
+          "emoji": "👟",
+          "correct": false
+        }
+      ],
+      "hash": "b99682b3ebce"
+    },
+    {
+      "type": "TEETH",
+      "question": "BRUSH THE KITTEN'S TEETH! PICK ONE",
+      "narration": "Time to brush the kitten's teeth! Choose correctly!",
+      "reveal_line": "Yes! The toothbrush. Sparkly teeth!",
+      "hero_key": "TEETH_1",
+      "options": [
+        {
+          "name": "ring",
+          "emoji": "💍",
+          "correct": false
+        },
+        {
+          "name": "comb",
+          "emoji": "🪮",
+          "correct": false
+        },
+        {
+          "name": "toothbrush",
+          "emoji": "🪥",
+          "correct": true
+        },
+        {
+          "name": "wrench",
+          "emoji": "🔧",
+          "correct": false
+        }
+      ],
+      "hash": "b7ec649e463e"
+    },
+    {
+      "type": "TOY",
+      "question": "PICK A SAFE TOY",
+      "narration": "Choose a toy for the kitten. Be careful!",
+      "reveal_line": "That's right, the mouse face!",
+      "hero_key": "TOY_1",
+      "options": [
+        {
+          "name": "mouse face",
+          "emoji": "🐭",
+          "correct": true
+        },
+        {
+          "name": "backpack",
+          "emoji": "🎒",
+          "correct": false
+        },
+        {
+          "name": "light bulb",
+          "emoji": "💡",
+          "correct": false
+        },
+        {
+          "name": "traffic light",
+          "emoji": "🚦",
+          "correct": false
+        }
+      ],
+      "hash": "b8043b053475"
+    },
+    {
+      "type": "DRINK",
+      "question": "CHOOSE A DRINK FOR THE KITTEN",
+      "narration": "Give the kitten something to drink. Choose correctly!",
+      "reveal_line": "That's right! droplet for the kitten!",
+      "hero_key": "DRINK_1",
+      "options": [
+        {
+          "name": "candle",
+          "emoji": "🕯️",
+          "correct": false
+        },
+        {
+          "name": "lotion bottle",
+          "emoji": "🧴",
+          "correct": false
+        },
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        },
+        {
+          "name": "droplet",
+          "emoji": "💧",
+          "correct": true
+        }
+      ],
+      "hash": "f1288e28baaf"
+    },
+    {
+      "type": "BATH",
+      "question": "CHOOSE WHERE THE KITTEN GETS CLEAN",
+      "narration": "The kitten is so dirty! Where should it wash?",
+      "reveal_line": "Yes! The soap. Splash splash!",
+      "hero_key": "BATH_2",
+      "options": [
+        {
+          "name": "soap",
+          "emoji": "🧼",
+          "correct": true
+        },
+        {
+          "name": "mud",
+          "emoji": "🟤",
+          "correct": false
+        },
+        {
+          "name": "yo-yo",
+          "emoji": "🪀",
+          "correct": false
+        },
+        {
+          "name": "ice",
+          "emoji": "🧊",
+          "correct": false
+        }
+      ],
+      "hash": "9b71e68aaea3"
+    }
+  ]
+}

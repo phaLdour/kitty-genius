@@ -1,0 +1,189 @@
+{
+  "id": "kg-20261004-sunnyday-21b5",
+  "story": "sunny_day",
+  "story_label": "Sunny Day",
+  "publish_day": "2026-10-04",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "SUN",
+      "question": "IT'S SO HOT! HELP THE KITTEN",
+      "narration": "It's so hot outside! Help the kitten stay cool!",
+      "reveal_line": "Yes! The ice cream. So cool!",
+      "hero_key": "SUN_1",
+      "options": [
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        },
+        {
+          "name": "gloves",
+          "emoji": "🧤",
+          "correct": false
+        },
+        {
+          "name": "traffic light",
+          "emoji": "🚦",
+          "correct": false
+        },
+        {
+          "name": "ice cream",
+          "emoji": "🍦",
+          "correct": true
+        }
+      ],
+      "hash": "2dfae8e7078e"
+    },
+    {
+      "type": "FOOD",
+      "question": "FEED THE HUNGRY KITTEN",
+      "narration": "The kitten is so hungry! Choose the right food!",
+      "reveal_line": "Yes! The yogurt. Yummy!",
+      "hero_key": "FOOD_3",
+      "options": [
+        {
+          "name": "yogurt",
+          "emoji": "🥛",
+          "correct": true
+        },
+        {
+          "name": "battery",
+          "emoji": "🔋",
+          "correct": false
+        },
+        {
+          "name": "balloon",
+          "emoji": "🎈",
+          "correct": false
+        },
+        {
+          "name": "wastebasket",
+          "emoji": "🗑️",
+          "correct": false
+        }
+      ],
+      "hash": "6b9d1e51d56d"
+    },
+    {
+      "type": "TOY",
+      "question": "PICK A SAFE TOY",
+      "narration": "The kitten wants to play! Choose a safe toy!",
+      "reveal_line": "That's right, the soccer ball!",
+      "hero_key": "TOY_2",
+      "options": [
+        {
+          "name": "soccer ball",
+          "emoji": "⚽",
+          "correct": true
+        },
+        {
+          "name": "light bulb",
+          "emoji": "💡",
+          "correct": false
+        },
+        {
+          "name": "magnet",
+          "emoji": "🧲",
+          "correct": false
+        },
+        {
+          "name": "mailbox",
+          "emoji": "📫",
+          "correct": false
+        }
+      ],
+      "hash": "7dcf8c9c8266"
+    },
+    {
+      "type": "ODD",
+      "question": "ONE IS NOT LIKE THE OTHERS",
+      "narration": "Find the odd one out! Look carefully!",
+      "reveal_line": "That's right! The cherries is the odd one!",
+      "hero_key": "ODD_2",
+      "options": [
+        {
+          "name": "strawberry",
+          "emoji": "🍓",
+          "correct": false
+        },
+        {
+          "name": "cherries",
+          "emoji": "🍒",
+          "correct": true
+        },
+        {
+          "name": "strawberry",
+          "emoji": "🍓",
+          "correct": false
+        },
+        {
+          "name": "strawberry",
+          "emoji": "🍓",
+          "correct": false
+        }
+      ],
+      "hash": "2feb3ffab10f"
+    },
+    {
+      "type": "BATH",
+      "question": "IT'S BATH TIME! PICK ONE",
+      "narration": "The kitten is so dirty! Where should it wash?",
+      "reveal_line": "Yes! The bathtub. Splash splash!",
+      "hero_key": "BATH_1",
+      "options": [
+        {
+          "name": "ice",
+          "emoji": "🧊",
+          "correct": false
+        },
+        {
+          "name": "volcano",
+          "emoji": "🌋",
+          "correct": false
+        },
+        {
+          "name": "bathtub",
+          "emoji": "🛁",
+          "correct": true
+        },
+        {
+          "name": "toilet",
+          "emoji": "🚽",
+          "correct": false
+        }
+      ],
+      "hash": "ec977486d441"
+    },
+    {
+      "type": "SLEEP",
+      "question": "BEDTIME! CHOOSE ONE",
+      "narration": "The kitten is sleepy. Where should it sleep?",
+      "reveal_line": "Yes! A cozy blanket. Good night!",
+      "hero_key": "SLEEP_2",
+      "options": [
+        {
+          "name": "blanket",
+          "emoji": "🛌",
+          "correct": true
+        },
+        {
+          "name": "drum",
+          "emoji": "🥁",
+          "correct": false
+        },
+        {
+          "name": "construction",
+          "emoji": "🚧",
+          "correct": false
+        },
+        {
+          "name": "trumpet",
+          "emoji": "🎺",
+          "correct": false
+        }
+      ],
+      "hash": "f8af20a79ca0"
+    }
+  ]
+}

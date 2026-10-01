@@ -1,0 +1,189 @@
+{
+  "id": "kg-20261007-birthday-031a",
+  "story": "birthday",
+  "story_label": "Kitty's Birthday",
+  "publish_day": "2026-10-07",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "FOOD",
+      "question": "THE KITTEN IS HUNGRY! PICK ONE",
+      "narration": "What can a kitten eat? Pick one!",
+      "reveal_line": "That's right, the canned food!",
+      "hero_key": "FOOD_3",
+      "options": [
+        {
+          "name": "umbrella",
+          "emoji": "☂️",
+          "correct": false
+        },
+        {
+          "name": "canned food",
+          "emoji": "🥫",
+          "correct": true
+        },
+        {
+          "name": "cactus",
+          "emoji": "🌵",
+          "correct": false
+        },
+        {
+          "name": "hot pepper",
+          "emoji": "🌶️",
+          "correct": false
+        }
+      ],
+      "hash": "a28e52f175bd"
+    },
+    {
+      "type": "BIRTHDAY",
+      "question": "IT'S THE KITTEN'S BIRTHDAY! PICK ONE",
+      "narration": "Happy birthday, kitty! Pick a present!",
+      "reveal_line": "Yes! The teddy bear. Happy birthday!",
+      "hero_key": "BIRTHDAY_1",
+      "options": [
+        {
+          "name": "glasses",
+          "emoji": "👓",
+          "correct": false
+        },
+        {
+          "name": "watch",
+          "emoji": "⌚",
+          "correct": false
+        },
+        {
+          "name": "telephone",
+          "emoji": "☎️",
+          "correct": false
+        },
+        {
+          "name": "teddy bear",
+          "emoji": "🧸",
+          "correct": true
+        }
+      ],
+      "hash": "d078f6d38b2a"
+    },
+    {
+      "type": "TOY",
+      "question": "PICK A SAFE TOY",
+      "narration": "Choose a toy for the kitten. Be careful!",
+      "reveal_line": "That's right, the tennis!",
+      "hero_key": "TOY_2",
+      "options": [
+        {
+          "name": "tennis",
+          "emoji": "🎾",
+          "correct": true
+        },
+        {
+          "name": "ruler",
+          "emoji": "📏",
+          "correct": false
+        },
+        {
+          "name": "backpack",
+          "emoji": "🎒",
+          "correct": false
+        },
+        {
+          "name": "shopping cart",
+          "emoji": "🛒",
+          "correct": false
+        }
+      ],
+      "hash": "df52b617b827"
+    },
+    {
+      "type": "DRINK",
+      "question": "CHOOSE A DRINK FOR THE KITTEN",
+      "narration": "The kitten is thirsty! Choose a drink!",
+      "reveal_line": "That's right! water bottle for the kitten!",
+      "hero_key": "DRINK_2",
+      "options": [
+        {
+          "name": "water bottle",
+          "emoji": "💧",
+          "correct": true
+        },
+        {
+          "name": "salt",
+          "emoji": "🧂",
+          "correct": false
+        },
+        {
+          "name": "key",
+          "emoji": "🔑",
+          "correct": false
+        },
+        {
+          "name": "bell",
+          "emoji": "🔔",
+          "correct": false
+        }
+      ],
+      "hash": "47f02b715438"
+    },
+    {
+      "type": "ODD",
+      "question": "FIND THE ODD ONE OUT",
+      "narration": "Which one is different? Choose correctly!",
+      "reveal_line": "Yes! The soccer ball is different!",
+      "hero_key": "ODD_2",
+      "options": [
+        {
+          "name": "basketball",
+          "emoji": "🏀",
+          "correct": false
+        },
+        {
+          "name": "soccer ball",
+          "emoji": "⚽",
+          "correct": true
+        },
+        {
+          "name": "basketball",
+          "emoji": "🏀",
+          "correct": false
+        },
+        {
+          "name": "basketball",
+          "emoji": "🏀",
+          "correct": false
+        }
+      ],
+      "hash": "34427d40c150"
+    },
+    {
+      "type": "SLEEP",
+      "question": "PICK A COZY PLACE TO SLEEP",
+      "narration": "The kitten is sleepy. Where should it sleep?",
+      "reveal_line": "That's right. Sweet dreams, kitty!",
+      "hero_key": "SLEEP_1",
+      "options": [
+        {
+          "name": "construction",
+          "emoji": "🚧",
+          "correct": false
+        },
+        {
+          "name": "tornado",
+          "emoji": "🌪️",
+          "correct": false
+        },
+        {
+          "name": "trumpet",
+          "emoji": "🎺",
+          "correct": false
+        },
+        {
+          "name": "pillow",
+          "emoji": "🛏️",
+          "correct": true
+        }
+      ],
+      "hash": "cb12c83fa4a3"
+    }
+  ]
+}

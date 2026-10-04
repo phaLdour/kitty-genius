@@ -1,0 +1,189 @@
+{
+  "id": "kg-20261010-partyday-8431",
+  "story": "party_day",
+  "story_label": "Party Day",
+  "publish_day": "2026-10-10",
+  "title": "Choose Correctly. 🧠",
+  "rounds": [
+    {
+      "type": "BIRTHDAY",
+      "question": "IT'S THE KITTEN'S BIRTHDAY! PICK ONE",
+      "narration": "Happy birthday, kitty! Pick a present!",
+      "reveal_line": "Yes! The birthday cake. Happy birthday!",
+      "hero_key": "BIRTHDAY_1",
+      "options": [
+        {
+          "name": "onion",
+          "emoji": "🧅",
+          "correct": false
+        },
+        {
+          "name": "socks",
+          "emoji": "🧦",
+          "correct": false
+        },
+        {
+          "name": "abacus",
+          "emoji": "🧮",
+          "correct": false
+        },
+        {
+          "name": "birthday cake",
+          "emoji": "🎂",
+          "correct": true
+        }
+      ],
+      "hash": "d752d242fbf7"
+    },
+    {
+      "type": "MUSIC",
+      "question": "PICK AN INSTRUMENT",
+      "narration": "The kitten loves music! Pick an instrument!",
+      "reveal_line": "That's right! Play the violin!",
+      "hero_key": "MUSIC_1",
+      "options": [
+        {
+          "name": "watch",
+          "emoji": "⌚",
+          "correct": false
+        },
+        {
+          "name": "crown",
+          "emoji": "👑",
+          "correct": false
+        },
+        {
+          "name": "violin",
+          "emoji": "🎻",
+          "correct": true
+        },
+        {
+          "name": "tire",
+          "emoji": "🛞",
+          "correct": false
+        }
+      ],
+      "hash": "76cc84f9a23e"
+    },
+    {
+      "type": "FOOD",
+      "question": "GIVE THE KITTEN BREAKFAST",
+      "narration": "The kitten is so hungry! Choose the right food!",
+      "reveal_line": "Yes! Kittens love sardine!",
+      "hero_key": "FOOD_1",
+      "options": [
+        {
+          "name": "umbrella",
+          "emoji": "☂️",
+          "correct": false
+        },
+        {
+          "name": "lemon",
+          "emoji": "🍋",
+          "correct": false
+        },
+        {
+          "name": "balloon",
+          "emoji": "🎈",
+          "correct": false
+        },
+        {
+          "name": "sardine",
+          "emoji": "🐟",
+          "correct": true
+        }
+      ],
+      "hash": "220cc466e6a6"
+    },
+    {
+      "type": "TOY",
+      "question": "CHOOSE A TOY FOR THE KITTEN",
+      "narration": "Choose a toy for the kitten. Be careful!",
+      "reveal_line": "Yes! The mouse face. So fun!",
+      "hero_key": "TOY_1",
+      "options": [
+        {
+          "name": "shopping cart",
+          "emoji": "🛒",
+          "correct": false
+        },
+        {
+          "name": "mailbox",
+          "emoji": "📫",
+          "correct": false
+        },
+        {
+          "name": "ruler",
+          "emoji": "📏",
+          "correct": false
+        },
+        {
+          "name": "mouse face",
+          "emoji": "🐭",
+          "correct": true
+        }
+      ],
+      "hash": "4b45f171b6f4"
+    },
+    {
+      "type": "ODD",
+      "question": "ONE IS NOT LIKE THE OTHERS",
+      "narration": "Which one is different? Choose correctly!",
+      "reveal_line": "That's right! The chicken is the odd one!",
+      "hero_key": "ODD_2",
+      "options": [
+        {
+          "name": "duck",
+          "emoji": "🦆",
+          "correct": false
+        },
+        {
+          "name": "duck",
+          "emoji": "🦆",
+          "correct": false
+        },
+        {
+          "name": "duck",
+          "emoji": "🦆",
+          "correct": false
+        },
+        {
+          "name": "chicken",
+          "emoji": "🐔",
+          "correct": true
+        }
+      ],
+      "hash": "ff530aac18f7"
+    },
+    {
+      "type": "SLEEP",
+      "question": "WHERE SHOULD THE KITTEN SLEEP?",
+      "narration": "Bedtime! Choose a cozy place!",
+      "reveal_line": "That's right. Sweet dreams, kitty!",
+      "hero_key": "SLEEP_2",
+      "options": [
+        {
+          "name": "blanket",
+          "emoji": "🛌",
+          "correct": true
+        },
+        {
+          "name": "guitar",
+          "emoji": "🎸",
+          "correct": false
+        },
+        {
+          "name": "trumpet",
+          "emoji": "🎺",
+          "correct": false
+        },
+        {
+          "name": "drum",
+          "emoji": "🥁",
+          "correct": false
+        }
+      ],
+      "hash": "51718f833f1e"
+    }
+  ]
+}
